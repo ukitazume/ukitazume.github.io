@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ukitazume.co</title>
+    <link>http://ukitazume.co/index.xml</link>
+    <description>Recent content on ukitazume.co</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Dec 2016 09:37:40 -0800</lastBuildDate>
+    <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>helloworld</title>
+      <link>http://ukitazume.co/post/helloworld/</link>
+      <pubDate>Sun, 18 Dec 2016 09:37:40 -0800</pubDate>
+      
+      <guid>http://ukitazume.co/post/helloworld/</guid>
+      <description>&lt;p&gt;Hugoを使って、Blogを始めることにした。
+Themeは&lt;a href=&#34;http://themes.gohugo.io/angels-ladder/&#34;&gt;Angels-ladder&lt;/a&gt;を使わせてもらった。&lt;/p&gt;
+
+&lt;p&gt;ここ半年、仕事の時間を減らして、旅行したり、カンファレンスに出たり、アメリカの大学の英語コースに通っていた。年明けからの仕事を探しつつ、新しい生活を始めようと思っている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;旅行&#34;&gt;旅行&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;コロラド&lt;/li&gt;
+&lt;li&gt;沖縄&lt;/li&gt;
+&lt;li&gt;京都&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;語学勉強&#34;&gt;語学勉強&lt;/h2&gt;
+
+&lt;p&gt;今年の秋に、3ヶ月のコースをPortland State University で受講した。&lt;/p&gt;
+
+&lt;h2 id=&#34;カンファレンス&#34;&gt;カンファレンス&lt;/h2&gt;
+
+&lt;p&gt;aaaa&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

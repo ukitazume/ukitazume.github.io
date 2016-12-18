@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ukitazume.co</title>
-    <link>http://ukitazume.co/index.xml</link>
+    <link>https://ukitazume.github.io/index.xml</link>
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 18 Dec 2016 09:37:40 -0800</lastBuildDate>
-    <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ukitazume.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>helloworld</title>
-      <link>http://ukitazume.co/post/helloworld/</link>
+      <link>https://ukitazume.github.io/post/helloworld/</link>
       <pubDate>Sun, 18 Dec 2016 09:37:40 -0800</pubDate>
       
-      <guid>http://ukitazume.co/post/helloworld/</guid>
+      <guid>https://ukitazume.github.io/post/helloworld/</guid>
       <description>&lt;p&gt;Hugoを使って、Blogを始めることにした。
 Themeは&lt;a href=&#34;http://themes.gohugo.io/angels-ladder/&#34;&gt;Angels-ladder&lt;/a&gt;を使わせてもらった。&lt;/p&gt;
 

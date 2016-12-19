@@ -15,7 +15,7 @@
       <pubDate>Sun, 18 Dec 2016 09:37:40 -0800</pubDate>
       
       <guid>http://ukitazume.co/post/helloworld/</guid>
-      <description>&lt;p&gt;Golangで書かれた、静的サイトジェネレーターのHugoを使って、Blogを始めることにした。
+      <description>&lt;p&gt;Golangで書かれた、静的サイトジェネレーターの&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;を使って、Blogを始めることにした。
 Themeは&lt;a href=&#34;http://themes.gohugo.io/angels-ladder/&#34;&gt;Angels-ladder&lt;/a&gt;を使わせてもらった。&lt;/p&gt;
 
 &lt;p&gt;ここ半年、仕事の時間を減らして、旅行したり、カンファレンスに出たり、アメリカの大学の英語コースに通っていた。年明けからの仕事を探しつつ、新しい生活を始めようと思っている。&lt;/p&gt;

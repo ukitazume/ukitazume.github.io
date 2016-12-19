@@ -67,17 +67,28 @@
         
           #<a href="/tags/blog">blog</a>&nbsp;
         
+          #<a href="/tags/hugo">Hugo</a>&nbsp;
+        
       </div>
     </div>
     <article>
-      <p>Hugoを使って、Blogを始めることにした。
+      <p>Golangで書かれた、静的サイトジェネレーターのHugoを使って、Blogを始めることにした。
 Themeは<a href="http://themes.gohugo.io/angels-ladder/">Angels-ladder</a>を使わせてもらった。</p>
 
 <p>ここ半年、仕事の時間を減らして、旅行したり、カンファレンスに出たり、アメリカの大学の英語コースに通っていた。年明けからの仕事を探しつつ、新しい生活を始めようと思っている。</p>
 
 <p></p>
 
-<p>コロラド州、デンバーでGophercon2016に参加し、そのあとにフォートコリンズでキャンプ、ラスベガス経由で帰国した。少し仕事をしながら、次は沖縄で本島、石垣、竹富島を観光、RubyKaigiで京都へ。そのあと、3ヶ月のオレゴン州ポートランドで、Portland State UniversityでESLの講義を受けた。3ヶ月ぐらいあればなんとかなるかなと思っていたが、英語はどうにもならず、今後も学習を続けていくしかなさそう。3ヶ月のプログラム終了後、ポートランドから、Amtrackに乗って、サンディエゴへ。サンディエゴで、来週まで休み。年末に日本に帰り、仕事を探します。</p>
+<p>Hugoはそのまま使っている。チュートリアルに則って、Github Pageに載せた。
+唯一、Makefileを作って単純な記事の更新などの時のコマンドはまとめた。今の所工夫はそれだけです。</p>
+
+<pre><code>default: update
+
+update:
+  hugo
+  git commit -am 'an update' &amp;&amp; git push
+  cd public &amp;&amp; git commit -am 'an update' &amp;&amp; git push
+</code></pre>
       
       
       

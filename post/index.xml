@@ -15,14 +15,23 @@
       <pubDate>Sun, 18 Dec 2016 09:37:40 -0800</pubDate>
       
       <guid>http://ukitazume.co/post/helloworld/</guid>
-      <description>&lt;p&gt;Hugoを使って、Blogを始めることにした。
+      <description>&lt;p&gt;Golangで書かれた、静的サイトジェネレーターのHugoを使って、Blogを始めることにした。
 Themeは&lt;a href=&#34;http://themes.gohugo.io/angels-ladder/&#34;&gt;Angels-ladder&lt;/a&gt;を使わせてもらった。&lt;/p&gt;
 
 &lt;p&gt;ここ半年、仕事の時間を減らして、旅行したり、カンファレンスに出たり、アメリカの大学の英語コースに通っていた。年明けからの仕事を探しつつ、新しい生活を始めようと思っている。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;コロラド州、デンバーでGophercon2016に参加し、そのあとにフォートコリンズでキャンプ、ラスベガス経由で帰国した。少し仕事をしながら、次は沖縄で本島、石垣、竹富島を観光、RubyKaigiで京都へ。そのあと、3ヶ月のオレゴン州ポートランドで、Portland State UniversityでESLの講義を受けた。3ヶ月ぐらいあればなんとかなるかなと思っていたが、英語はどうにもならず、今後も学習を続けていくしかなさそう。3ヶ月のプログラム終了後、ポートランドから、Amtrackに乗って、サンディエゴへ。サンディエゴで、来週まで休み。年末に日本に帰り、仕事を探します。&lt;/p&gt;</description>
+&lt;p&gt;Hugoはそのまま使っている。チュートリアルに則って、Github Pageに載せた。
+唯一、Makefileを作って単純な記事の更新などの時のコマンドはまとめた。今の所工夫はそれだけです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;default: update
+
+update:
+  hugo
+  git commit -am &#39;an update&#39; &amp;amp;&amp;amp; git push
+  cd public &amp;amp;&amp;amp; git commit -am &#39;an update&#39; &amp;amp;&amp;amp; git push
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
   </channel>

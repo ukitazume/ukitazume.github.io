@@ -49,6 +49,10 @@ update:
   hugo
   git commit -am &#39;an update&#39; &amp;amp;&amp;amp; git push
   cd public &amp;amp;&amp;amp; git commit -am &#39;an update&#39; &amp;amp;&amp;amp; git push
+new:
+  hugo
+  git add . &amp;amp;&amp;amp; git commit -m &#39;new post &#39; &amp;amp;&amp;amp; git push
+  cd public &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &#39;an update&#39; &amp;amp;&amp;amp; git push
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;書くことについて考える機会があった。2016年9月から、3ヶ月(1ターム)Portland State UniversityのESLコースに通った。受けたコースが、英語を第二外国語とする生徒のための大学への準備コースということもあり、アメリカの大学で授業を受けるために必要な英語力を伸ばすカリキュラムが組まれていた。読むこと、それをまとめること、書くことが中心だった。一応大学を出ている自分だけど、書くことに関して、しっかり習ったのは初めてかもしれない。文章を書くために必要なリーディング、メモの取り方、アウトラインを書いて、文章を書くところまで。さらに先生が一人つず、添削し、面談し、修正をした。&lt;/p&gt;

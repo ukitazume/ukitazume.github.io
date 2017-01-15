@@ -197,6 +197,7 @@ article h6 {
 }
 article p {
   margin: 25px 0;
+  color: #666;
 }
 article code {
   color: #333;
@@ -235,6 +236,10 @@ article #share-this {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
+}
+.summary p {
+  color: #777;
+  font-size: 15px;
 }
 .meta {
   color: #999;

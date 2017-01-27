@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    test | ukitazume.co
+    20170127 | ukitazume.co
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://ukitazume.co/page/test/"/>
+  <link rel="canonical" href="http://ukitazume.co/learn/20170127/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -66,24 +66,50 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>test</h1>
+      <h1>20170127</h1>
       <div class="meta">
-        Dec 29, 2016 &nbsp;
+        Jan 27, 2017 &nbsp;
         
       </div>
     </div>
     <article>
       
+
+<h3 id="hugoの設定">Hugoの設定</h3>
+
+<ul>
+<li>勉強したことのログを残せるように変更した。Layoutは特定される順に落ちていく。 <code>specified content -&gt; default -&gt; theme</code></li>
+</ul>
+
+<h3 id="jenkins">Jenkins</h3>
+
+<ul>
+<li>kubernetesで動かしていたJenkinsで、Chromedriverが見つからなくて、Seleniumのテストがエラー。ChromedriverをインストールしたDocker Imageを用意することにした。そしたら動いた。 - とみえたが、動いてなかった。</li>
+<li><a href="https://github.com/nightwatchjs/nightwatch/issues/913">https://github.com/nightwatchjs/nightwatch/issues/913</a> に従って、updateして見た。ダメだった。</li>
+<li>jenkinsようにseleniumクラスターを立ち上げるという方法もあるが、kubernetesの容量足りずに断念</li>
+</ul>
+
+<h3 id="shell">Shell</h3>
+
+<ul>
+<li>parameter extention  変数チェックの時に  <code>+</code> が使えた。
+<a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02">http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02</a></li>
+</ul>
+
+<h3 id="kubernetes">Kubernetes</h3>
+
+<ul>
+<li>Jenkinsをいじるために、heapstarを入れたり、なんだりしたが、いまいち上手く動かず。少しわかってきて、わからなことが続出した感じ。ドキュメントを落ち着いて読んでみようと思う。</li>
+</ul>
+
       
       
       
     </article>
   <nav class="pagination-single">
     
-      <span class="previous">&larr; <a href="http://ukitazume.co/post/getback/" rel="prev">Get Back to Japan</a></span>
+      <span class="previous">&larr; <a href="http://ukitazume.co/learn/helloworld/" rel="prev">helloworld</a></span>
     
-    
-      <span class="next"><a href="http://ukitazume.co/post/newyear2017/" rel="next">New Year</a> &rarr;</span>
     
   </nav>
 

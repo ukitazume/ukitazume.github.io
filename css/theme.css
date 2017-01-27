@@ -229,6 +229,23 @@ article #share-this {
   margin: 10px 0 25px -4px;
   padding: 5px 0 5px 10px;
 }
+
+.learn-header {
+  border-left: 4px solid #FFCC00;
+  margin: 10px 0 25px -4px;
+  padding: 5px 0 5px 10px;
+}
+
+.about-header {
+  border-left: 4px solid #FFCC00;
+  margin: 10px 0 25px -4px;
+  padding: 5px 0 5px 10px;
+}
+
+ul#learns li {
+  list-style-type: upper-roman;
+  text-transform: capitalize;
+}
 .light-gray {
   color: #999;
 }

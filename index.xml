@@ -6,8 +6,89 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Jan 2017 11:22:47 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jan 2017 09:36:02 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170128</title>
+      <link>http://ukitazume.co/learn/20170128/</link>
+      <pubDate>Sat, 28 Jan 2017 09:36:02 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170128/</guid>
+      <description>
+
+&lt;h3 id=&#34;mac&#34;&gt;Mac&lt;/h3&gt;
+
+&lt;p&gt;1Passwordが &lt;code&gt;Command + \&lt;/code&gt; で入力可能なことを知る。超便利。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;1password 使ってる皆さん、cmd+\のショートカットでフォームへの自動入力できますよ！！&lt;/p&gt;&amp;mdash; #セコン (@hotchpotch) &lt;a href=&#34;https://twitter.com/hotchpotch/status/824921778459848704&#34;&gt;January 27, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;追加で調べて見たら、 &lt;code&gt;Option + Command + \&lt;/code&gt; でmini 1passを開くよう。
+&lt;a href=&#34;https://support.1password.com/keyboard-shortcuts/&#34;&gt;https://support.1password.com/keyboard-shortcuts/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;english&#34;&gt;English&lt;/h3&gt;
+
+&lt;p&gt;NHKの英語リスニングLessen 38. Bathがテーマ。ラジオ英会話1weekのレビュー。&lt;/p&gt;
+
+&lt;h3 id=&#34;jira&#34;&gt;JIRA&lt;/h3&gt;
+
+&lt;p&gt;JIRAのセットアップが上手いこと最終的に言った。Proxyが前に挟まるのが問題で、また、そのコンフィグを書き換えるのが、めんどくさかった。on kubernetes&lt;/p&gt;
+
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shop.oreilly.com/product/110000527.do&#34;&gt;Just Enough Math&lt;/a&gt;をサイバーマンデーのセールで買ったのでやり始めた。最初に、&lt;strong&gt;Computational Thinking&lt;/strong&gt; というのが出てくるので、ネットで検索した。以下引用。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;計算論的思考は人間の問題解決法であ
+り，人間がコンピュータのように考えることを目
+指すものではない.コンピュータは単調で退屈で
+あるが，人間は賢くて想像力豊かである.人間が
+コンピュータを刺激的なものにする.コンピュー
+タという計算装置を持つことにより，我々は計算
+の時代以前には挑戦できなかったような問題を解
+くのに自らの叡智を使うことができ，新しいシス
+テムを構築することができる.限界は我々の想像
+力だけである&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cs.cmu.edu/afs/cs/usr/wing/www/ct-japanese.pdf&#34;&gt;https://www.cs.cmu.edu/afs/cs/usr/wing/www/ct-japanese.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;数学的思考と工学的思考を組み合わせ，補完することである.コンピュータ科学は本質的に数学的 思考の上に成立している.そのため，すべての科 学同様，コンピュータ科学の形式的基礎は数学に ある. コンピュータ科学は，実世界と相互作用 するシステムを構築する場合，本質的に工学的思 考の上に成立している.それらを司る計算装置の 制約が，コンピュータ科学者に数学的だけではな く計算論的な思考を要求する&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cs.cmu.edu/afs/cs/usr/wing/www/ct-japanese.pdf&#34;&gt;https://www.cs.cmu.edu/afs/cs/usr/wing/www/ct-japanese.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Computational thinking means creating and making use of different levels of abstraction, to understand and solve problems more effectively.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cs.cmu.edu/~CompThink/&#34;&gt;http://www.cs.cmu.edu/~CompThink/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;4-keys&#34;&gt;4 keys&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;decomposition&lt;/li&gt;
+&lt;li&gt;partern recoginition&lt;/li&gt;
+&lt;li&gt;partern Generalization and abstraction&lt;/li&gt;
+&lt;li&gt;algorithm design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;algibra-復習&#34;&gt;Algibra 復習&lt;/h4&gt;
+
+&lt;p&gt;slope, interpret, polynomial, terms, times, power, exponent, coefficient, devide, combine, equation, substituting, matrix, row, column, notation, probability, stats&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mathsisfun.com/algebra/index-2.html&#34;&gt;http://www.mathsisfun.com/algebra/index-2.html&lt;/a&gt; に単語の説明あり。&lt;/p&gt;
+
+&lt;h4 id=&#34;resources&#34;&gt;resources&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.greenteapress.com/complexity/thinkcomplexity.pdf&#34;&gt;http://www.greenteapress.com/complexity/thinkcomplexity.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ceteri/jem-video/tree/master/src&#34;&gt;https://github.com/ceteri/jem-video/tree/master/src&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mathsisfun.com/algebra/index-2.html&#34;&gt;http://www.mathsisfun.com/algebra/index-2.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170127</title>

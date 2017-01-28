@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learn-rsses on ukitazume.co</title>
-    <link>http://ukitazume.co/learn/index.xml</link>
-    <description>Recent content in Learn-rsses on ukitazume.co</description>
+    <title>ukitazume.co</title>
+    <link>http://ukitazume.co/tags/index.xml</link>
+    <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 28 Jan 2017 09:36:02 +0900</lastBuildDate>
-    <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ukitazume.co/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>20170128</title>
@@ -87,53 +86,6 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/ceteri/jem-video/tree/master/src&#34;&gt;https://github.com/ceteri/jem-video/tree/master/src&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.mathsisfun.com/algebra/index-2.html&#34;&gt;http://www.mathsisfun.com/algebra/index-2.html&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170127</title>
-      <link>http://ukitazume.co/learn/20170127/</link>
-      <pubDate>Fri, 27 Jan 2017 11:22:47 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170127/</guid>
-      <description>
-
-&lt;h3 id=&#34;hugoの設定&#34;&gt;Hugoの設定&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;勉強したことのログを残せるように変更した。Layoutは特定される順に落ちていく。 &lt;code&gt;specified content -&amp;gt; default -&amp;gt; theme&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;jenkins&#34;&gt;Jenkins&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kubernetesで動かしていたJenkinsで、Chromedriverが見つからなくて、Seleniumのテストがエラー。ChromedriverをインストールしたDocker Imageを用意することにした。そしたら動いた。 - とみえたが、動いてなかった。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nightwatchjs/nightwatch/issues/913&#34;&gt;https://github.com/nightwatchjs/nightwatch/issues/913&lt;/a&gt; に従って、updateして見た。ダメだった。&lt;/li&gt;
-&lt;li&gt;jenkinsようにseleniumクラスターを立ち上げるという方法もあるが、kubernetesの容量足りずに断念&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;shell&#34;&gt;Shell&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;parameter extention  変数チェックの時に  &lt;code&gt;+&lt;/code&gt; が使えた。
-&lt;a href=&#34;http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02&#34;&gt;http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Jenkinsをいじるために、heapstarを入れたり、なんだりしたが、いまいち上手く動かず。少しわかってきて、わからなことが続出した感じ。ドキュメントを落ち着いて読んでみようと思う。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>helloworld</title>
-      <link>http://ukitazume.co/learn/helloworld/</link>
-      <pubDate>Fri, 27 Jan 2017 10:31:15 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/helloworld/</guid>
-      <description>&lt;p&gt;I am an endless learner. Programming, History, Math, English and so on.&lt;/p&gt;
 </description>
     </item>
     

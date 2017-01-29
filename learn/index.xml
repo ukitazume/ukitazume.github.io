@@ -6,8 +6,97 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 28 Jan 2017 09:36:02 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jan 2017 10:35:27 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170129</title>
+      <link>http://ukitazume.co/learn/20170129/</link>
+      <pubDate>Sun, 29 Jan 2017 10:35:27 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170129/</guid>
+      <description>
+
+&lt;h3 id=&#34;nhk&#34;&gt;NHK&lt;/h3&gt;
+
+&lt;p&gt;アレキサンダーハミルトンとラジオ英会話Week2, Quizletを使い始めた。&lt;/p&gt;
+
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
+&lt;p&gt;Just Enough Math 2. Abstract Algebra.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract Algebra&lt;/strong&gt;. It&amp;rsquo;s important because of&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;functional programming&lt;/li&gt;
+&lt;li&gt;real time analitics&lt;/li&gt;
+&lt;li&gt;avoiding the bottlenecks in batch processes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Monoidとか 意味がわからない。今の所。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/抽象代数学&#34;&gt;https://ja.wikipedia.org/wiki/抽象代数学&lt;/a&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Abstract_algebra&#34;&gt;https://en.wikipedia.org/wiki/Abstract_algebra&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;monoid&#34;&gt;Monoid&lt;/h4&gt;
+
+&lt;p&gt;wikiは全然分からず、、 &lt;a href=&#34;https://ja.wikipedia.org/wiki/モノイド&#34;&gt;https://ja.wikipedia.org/wiki/モノイド&lt;/a&gt;
+講義の中で紹介されてたこれを見て見る. &lt;a href=&#34;http://math.uga.edu/~pete/semigroup.pdf&#34;&gt;http://math.uga.edu/~pete/semigroup.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;semigroup&#34;&gt;semigroup&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A semigroup M is a nonempty set equipped with a binary operation ·, which
+is required (only!) to be associative.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://math.uga.edu/~pete/semigroup.pdf&#34;&gt;http://math.uga.edu/~pete/semigroup.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;associative だから、semigroupは分割できる!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;identity&#34;&gt;identity&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;An element e of a semigroup M is said to be an identity if for all x ∈ M,
+ex = xe = x.&lt;/p&gt;
+
+&lt;p&gt;Proposition 1. A semigroup can have at most one identity. Proof: If e and e′ are both identities, then e = e · e′ = e′.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://math.uga.edu/~pete/semigroup.pdf&#34;&gt;http://math.uga.edu/~pete/semigroup.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;monoid-1&#34;&gt;monoid&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A monoid is a semigroup with an identity element. By Proposition 1, the identity element is unique, and we shall generally denote it by 1.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://math.uga.edu/~pete/semigroup.pdf&#34;&gt;http://math.uga.edu/~pete/semigroup.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;commutative&#34;&gt;Commutative&lt;/h4&gt;
+
+&lt;p&gt;Don&amp;rsquo;t mind the order&lt;/p&gt;
+
+&lt;h4 id=&#34;data-workflow&#34;&gt;Data WorkFlow&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;business / data agregate &amp;hellip; etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;function-programming&#34;&gt;Function programming&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://learnyouahaskell.com/chapters&#34;&gt;http://learnyouahaskell.com/chapters&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;summary&#34;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;Abstract Algebraをベースに(monoidなど）functional programmingがあって、Big DataのWorkflow, Bottlenecksに使える。Stream, Strong Typed などなど。ベースの数学(Abstract Algebra）、Haskel やScalaで学ぶなどなど&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.infoq.com/presentations/abstract-algebra-analytics&#34;&gt;https://www.infoq.com/presentations/abstract-algebra-analytics&lt;/a&gt;
+&lt;a href=&#34;https://speakerdeck.com/johnynek/algebra-for-analytics&#34;&gt;https://speakerdeck.com/johnynek/algebra-for-analytics&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170128</title>

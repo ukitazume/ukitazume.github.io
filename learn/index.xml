@@ -6,8 +6,57 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Jan 2017 10:35:27 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jan 2017 08:45:38 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170130</title>
+      <link>http://ukitazume.co/learn/20170130/</link>
+      <pubDate>Mon, 30 Jan 2017 08:45:38 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170130/</guid>
+      <description>
+
+&lt;p&gt;1月が終わろうとしている。&lt;/p&gt;
+
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
+&lt;h4 id=&#34;infinity&#34;&gt;Infinity&lt;/h4&gt;
+
+&lt;p&gt;Math is funにて、今月のピックアップInfinity。わかりやすい英語で、わかりやすい解説で書かれている。
+&lt;a href=&#34;http://www.mathsisfun.com/numbers/infinity.html&#34;&gt;http://www.mathsisfun.com/numbers/infinity.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;googol&lt;/li&gt;
+&lt;li&gt;googolplex&lt;/li&gt;
+&lt;li&gt;googolplexian&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;algorithm-and-data-structure&#34;&gt;Algorithm and Data Structure&lt;/h3&gt;
+
+&lt;p&gt;Couseraのただの方から見て見る。Java実装みたいだけど&lt;/p&gt;
+
+&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Bad programmers worry about the code. Good programmers worry about data structures and their relationships.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;— Linus Torvalds (creator of Linux)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Algorithms + Data Structures = Programs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Niklaus Wirth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;JIRAを少しずつ理解してきた。Screen, Field等々。勉強のプランニングに使用中。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170129</title>

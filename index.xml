@@ -19,6 +19,55 @@
     </item>
     
     <item>
+      <title>20170130</title>
+      <link>http://ukitazume.co/learn/20170130/</link>
+      <pubDate>Mon, 30 Jan 2017 08:45:38 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170130/</guid>
+      <description>
+
+&lt;p&gt;1月が終わろうとしている。&lt;/p&gt;
+
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
+&lt;h4 id=&#34;infinity&#34;&gt;Infinity&lt;/h4&gt;
+
+&lt;p&gt;Math is funにて、今月のピックアップInfinity。わかりやすい英語で、わかりやすい解説で書かれている。
+&lt;a href=&#34;http://www.mathsisfun.com/numbers/infinity.html&#34;&gt;http://www.mathsisfun.com/numbers/infinity.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;googol&lt;/li&gt;
+&lt;li&gt;googolplex&lt;/li&gt;
+&lt;li&gt;googolplexian&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;algorithm-and-data-structure&#34;&gt;Algorithm and Data Structure&lt;/h3&gt;
+
+&lt;p&gt;Couseraのただの方から見て見る。Java実装みたいだけど&lt;/p&gt;
+
+&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Bad programmers worry about the code. Good programmers worry about data structures and their relationships.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;— Linus Torvalds (creator of Linux)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Algorithms + Data Structures = Programs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Niklaus Wirth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;JIRAを少しずつ理解してきた。Screen, Field等々。勉強のプランニングに使用中。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>20170129</title>
       <link>http://ukitazume.co/learn/20170129/</link>
       <pubDate>Sun, 29 Jan 2017 10:35:27 +0900</pubDate>
@@ -385,97 +434,6 @@ ex = xe = x.&lt;/p&gt;
 &lt;p&gt;夏の終わりに家を出て、扇風機が家にまだ置いてあった。灯油を切らしており、おじさんに分けてもらい、暖をとった。夜カップそばとカップうどんをさらに食べてお風呂に入って寝た。&lt;/p&gt;
 
 &lt;p&gt;散財して、時間も使った。30代のこの時間に働かない選択は大きかった。お金を整理して、生活を整え新年を迎えようとおもう。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://ukitazume.co/page/about/</link>
-      <pubDate>Sun, 18 Dec 2016 11:39:39 -0800</pubDate>
-      
-      <guid>http://ukitazume.co/page/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;yu-kitazume&#34;&gt;Yu Kitazume&lt;/h2&gt;
-
-&lt;p&gt;Webエンジニア。Ruby, Javascript, インフラ。 Yahoo! Japan / Pankaku / Engine Yard&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/ukitazume&#34;&gt;Qiita&lt;/a&gt; / &lt;a href=&#34;https://zekkei-project.com/users/457&#34;&gt;Zekkei-Project&lt;/a&gt; / &lt;a href=&#34;https://www.instagram.com/ukitazume/&#34;&gt;Instagram&lt;/a&gt; / &lt;a href=&#34;https://soundcloud.com/ukitazume&#34;&gt;Soundcloud&lt;/a&gt; / &lt;a href=&#34;http://portland.hatenadiary.jp&#34;&gt;HatenaBlog::Portland&lt;/a&gt; / &lt;a href=&#34;https://pinboard.in/u:ukitazume&#34;&gt;Pinboard&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;Software and Support Engineer in Japan. I can develop software with client-side JavaScript, Ruby, PHP. Also handle infrastructure by code on Cloud. I have the experience to work for an international company as a pre-sales engineer and a support engineer.&lt;/p&gt;
-
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
-
-&lt;p&gt;Languages and Frameworks: Ruby, PHP, Javascript, ShellScript, Golang, HTML, CSS, Rails, and Angularjs&lt;/p&gt;
-
-&lt;p&gt;Middleware: MySQL, Redis, MongoDB, PostgreSQL, ElasticSearch, Nginx, Haproxy, Unicorn, PHP-FPM, Chef, Ansible, Terraform, Linux and Docker&lt;/p&gt;
-
-&lt;p&gt;Others: Pre Sales, Technical Support&lt;/p&gt;
-
-&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Support Engineer and Pre-Sales Manager, Engine Yard, Dec 2013 - Jun 2016&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I joined Engine Yard as a pre-sales engineer for landing and expanding Japan market. Since 2014, I joined the APAC team as a support engineer. I helped the customer success to make their infrastructure scalable and reliable.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for marketing and sales in Japan, supporting customers&lt;/li&gt;
-&lt;li&gt;Gentoo Linux, monit, Chef, Redis, Unicorn, Passenger, Resque, Sidekiq, PostgreSQL, MySQL, PHP-FPM, Docker, AWS and Technical Documentation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Web Engineer and DevOps Engineer, Pankaku, Jun 2011- Mac 2013&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I developed several Web APIs, and tools for mobile games. I provisioned and operated high-throughput infrastructure.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for creating games and tools for client&lt;/li&gt;
-&lt;li&gt;AWS, Ruby on Rails, MySQL, MongoDB, Redis, Nginx, Haproxy, Javascript, HTML, and CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Web Engineer, Yahoo! Japan, Apr 2008 - Jun 2011&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I developed Web frontend, APIs, and an iPhone application named Poffee.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for developments of Yahoo!Japan services&lt;/li&gt;
-&lt;li&gt;FreeBSD, PHP, Javascript, Objective-C, HTML, and CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Master of Science, 2008&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;2006 - 2008 / Graduate school of science and technology, Department of Textile system and Technology, Shinshu University, Nagano, Japan&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bachelor of Science, 2006&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;2002 - 2006 / Department of textile system Technology, Shinshu University, Nagano, Japan&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;side-projects&#34;&gt;Side Projects&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Engineer, Zekkei-Project, 2016&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I created the web service with AngularJS and Ruby on Rails on AWS.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zekkei-project.com/en&#34;&gt;https://zekkei-project.com/en&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for developing the backend and frontend&lt;/li&gt;
-&lt;li&gt;Use: Angularjs, Redis, PostgreSQL, Rails, Gulp, PhantomJS, ElasticSearch&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;EY Berk&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s a tool to manage Chef recipes of Engine Yard like Berfshef. It handles the Chef recipes.
-I created it by Golang.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ukitazume/ey-berks&#34;&gt;https://github.com/ukitazume/ey-berks&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Golang, Chef&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
   </channel>

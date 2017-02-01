@@ -6,8 +6,59 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 31 Jan 2017 11:38:03 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Feb 2017 09:24:47 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170201</title>
+      <link>http://ukitazume.co/learn/20170201/</link>
+      <pubDate>Wed, 01 Feb 2017 09:24:47 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170201/</guid>
+      <description>
+
+&lt;h2 id=&#34;grpc-を見てみる&#34;&gt;gRPC を見てみる&lt;/h2&gt;
+
+&lt;p&gt;サービス間を型ありで繋ぎたい。アーキテクチャーの参考にもなるかと、ドキュメントを流し読み。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;gRPC は Google が開発しているRPC(リモートプロシージャコール)のライブラリとフレームワークで、通信層は HTTP/2 を介して行われます。
+データ層については、固定されている訳ではなくあくまでデフォルトで Protocol Buffers が使われる様になっています。使用出来るプログラミング言語は現在、C++, Node.js, Python, Ruby, Objective-C, PHP, C# となっています。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mattn.kaoriya.net/software/lang/go/20150227144125.htm&#34;&gt;http://mattn.kaoriya.net/software/lang/go/20150227144125.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;型だけじゃなくて、インターフェース定義&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;gRPCを使うと、クライアントアプリケーションは直接、ローカルのオブジェクトのように、他のマシンのサーバーアプリケーションのメソッドを呼ぶことができ、 分散したアプリケーションやサービスを簡単に作ることができる。 多くのRPCシステムと同様に、gRPCはサービスを定義し、リモートから呼べるメソッドと、そのパラメーターおよび返り値の型を記述するようになっている。 サーバーサイドではインタフェースを実装し、クライアントからの呼び出しをハンドリングするgRPCサーバーを実行する。 クライアントサイドでは、サーバーと同じメソッドを提供するスタブを持っている。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sambaiz.net/article/12/&#34;&gt;http://sambaiz.net/article/12/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ほう。コネクションさえしてれば、クライアントのメソッドのように呼べる。
+インターフェース定義を共有して、コネクションに対して、ローカルメソッドのように呼び出すことができる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;r, err := c.RetEcho(context.Background(), &amp;amp;pb.EchoRequest{Say: &amp;quot;hello&amp;quot;})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/grpc/grpc&#34;&gt;https://github.com/grpc/grpc&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gitlab-melts-down&#34;&gt;Gitlab melts down&lt;/h2&gt;
+
+&lt;p&gt;GitLab.comがオペレーション中に謝って、DatabaseのDataを消してしまったらしい。各リカバリー策もうまく動かず。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/?mt=1485916372982&#34;&gt;https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/?mt=1485916372982&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;悲しすぎる。問題の発生とリカバリーの試みのログがみれる。
+&lt;a href=&#34;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&#34;&gt;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;時間がかかりすぎる処理、スパムによる高負荷、それによる、レプリケーションのラグの発生、遅い時間の作業、同僚のヘルプが休みで得られないタイミング。&lt;/p&gt;
+
+&lt;p&gt;Spamによるhigh loadと、それをキックした後、
+&amp;gt; due to spam/high load on GitLab.com&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170131</title>
@@ -429,15 +480,6 @@ ex = xe = x.&lt;/p&gt;
 
 &lt;p&gt;今年はまた一生懸命働いて、日々の生活を楽しんでいこうと思ます。大学に通ったことによって、勉強が意外と楽しいことに気づいた。
 オンラインで教材やサービス、本もたくさん存在していて、自分に合うものを見つけるのもできそうだ。いつの間にか年齢も30代後半に差しかかろうとしているが、なるべく焦らず、興味関心に従って、仕事をして行きたいと思っている。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>http://ukitazume.co/page/test/</link>
-      <pubDate>Thu, 29 Dec 2016 07:24:41 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/page/test/</guid>
-      <description></description>
     </item>
     
   </channel>

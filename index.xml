@@ -53,10 +53,14 @@
 &lt;p&gt;悲しすぎる。問題の発生とリカバリーの試みのログがみれる。
 &lt;a href=&#34;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&#34;&gt;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;時間がかかりすぎる処理、スパムによる高負荷、それによる、レプリケーションのラグの発生、遅い時間の作業、同僚のヘルプが休みで得られないタイミング。&lt;/p&gt;
+&lt;p&gt;時間がかかりすぎる処理、スパムによる高負荷、それによる、レプリケーションのラグの発生、遅い時間の作業、同僚のヘルプが休みで得られないタイミング。いろんなことが重なって、opsが少ないと起こりそうなことな気がした。&lt;/p&gt;
 
-&lt;p&gt;Spamによるhigh loadと、それをキックした後、
-&amp;gt; due to spam/high load on GitLab.com&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;バックアップが動いているかのテスト&lt;/li&gt;
+&lt;li&gt;opsをひとりにしない&lt;/li&gt;
+&lt;li&gt;作業を分割する&lt;/li&gt;
+&lt;li&gt;夜にsudoは使わない&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

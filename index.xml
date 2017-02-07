@@ -6,8 +6,35 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Feb 2017 16:05:59 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Feb 2017 10:22:42 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170207</title>
+      <link>http://ukitazume.co/learn/20170207/</link>
+      <pubDate>Tue, 07 Feb 2017 10:22:42 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170207/</guid>
+      <description>
+
+&lt;h3 id=&#34;meeting&#34;&gt;Meeting&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;朝の定例ミーティング&lt;/li&gt;
+&lt;li&gt;面接&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css-htmlを書く&#34;&gt;css/htmlを書く&lt;/h3&gt;
+
+&lt;p&gt;ここら辺もう少しかけないとなと思って、書く。
+rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
+
+&lt;h3 id=&#34;料理&#34;&gt;料理&lt;/h3&gt;
+
+&lt;p&gt;ニシンとカボチャの味噌汁を作って食す。
+自作の納豆もいい感じ。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170206</title>
@@ -27,6 +54,11 @@
 &lt;h3 id=&#34;お金&#34;&gt;お金&lt;/h3&gt;
 
 &lt;p&gt;お金が重要な決定要素になってるので、整理。話し合い。&lt;/p&gt;
+
+&lt;h3 id=&#34;phantom&#34;&gt;Phantom&lt;/h3&gt;
+
+&lt;p&gt;nodeからPhantomを使って見たが、全然上手いこといかず。メモリーがどんどん膨らむ。
+どこで止めるかが難しい。クライアントサイドと一緒になってやったほうがよさそう。&lt;/p&gt;
 </description>
     </item>
     
@@ -525,31 +557,6 @@ ex = xe = x.&lt;/p&gt;
 &lt;p&gt;春には社会人10年目になる。半分以上はコードを書いてたけど、ここ数年(3~4年)かメインではプログラマーではない職業をやっていた。プリセールスやサポートエンジニアでご飯を食べてきた。時間を見つけて、小さいプログラムは書いていたものの、仕事時間に書いていないので、大きくプログラムを書く時間は減っていた。&lt;/p&gt;
 
 &lt;p&gt;もっと書きたいなと思っている。ブランクのぶん、技術のキャッチアップも必要だ。新しく触れるものがあることは楽しい。しかし、プログラムを書くのには気力も体力も必要だ。いい年にしたい。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>速水健朗『東京どこに住む？　住所格差と人生格差 』</title>
-      <link>http://ukitazume.co/post/wherelive/</link>
-      <pubDate>Sun, 15 Jan 2017 08:45:21 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/post/wherelive/</guid>
-      <description>&lt;p&gt;売れていると聞いていて、伊勢崎へ向かうバスの時間を調整する間に新宿の紀伊国屋で見かけて手に取った記憶がある。最初の数ページを読んで、本棚に眠っていたが、最近の移動時間で読み終えた。&lt;a href=&#34;http://amzn.to/2jKeL8l&#34;&gt;速水健朗『東京どこに住む？住所格差と人生格差 』&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;なんとなく知っていた、いや、なんとなくしか知らなかった、数十年前の日本の住宅事情。時間が経ち、その傾向が変化して行く中で、この本の中で整理されていた。高度経済成長時の、郊外一戸建て庭付、ドーナッツ化現象の時代のことと、「国土の均衡ある発展」という国策と土地の所有税が安く、都心の土地が投機に流れ、土地活用が進まなかったこと。そして、税制の変更による都心価格の下落と、住み方の多様性の中で、都心回帰が進んでいるということ。選択肢がある中で、安心な選択肢に見えるのだろうか。群馬と東京を往復しつつ、職業との問題で、住む場所に選択肢があるようなないような状況で、次の住む場所と職業を考えている自分にとって参考になる本だった。&lt;/p&gt;
-
-&lt;p&gt;同じ著者の&lt;a href=&#34;http://amzn.to/2jjPHIE&#34;&gt;『フード左翼とフード右翼　食で分断される日本人』&lt;/a&gt;で、オーガニックな食事というのは、生産コストが高く、世界的に見た人口増加から見ると、サステナブルではないという指摘があった。オーガニックに抱くイメージとは逆である。同様に実は集積して住むほうが効率は良く、田舎に一人で住むのはコスト高であると指摘する。これも田舎暮らしのイメージとは逆だ。イメージと現実が違うこと指摘は重要で面白かった。著者は食事の部分で、遺伝子組み換えも受け入れていくという選択肢を考えていこうと個人的な選択を示していた記憶がある（すでに手元に本がなくて参照できず、違うかも）。都市に住む価値はその近接性にあると結論し、そして最後に次のようにあとがきを締めくくっている。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;遠くに行くことも同様に価値を持つ。これを書き終えたら少し田舎にでもいこうと思っている。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;そういえば、数年前に、シェアハウスに住んでいた。近接性（＝他人の近くに住む）というものの最たるもので、今までの生活のなかでは会うことのなかっただろう人たちと会い、遊び、話した。今でもいい友達になっている。一方で個人で集中する時間が減っていることにも気づいた。本を読んだり、個人的なプログラムをしたりする時間だ。もし選択肢が持てるなら、この二つ、近接性と距離を置くことのできる田舎を行き来したい。時間と気力とお金すべてがかかるので、できるかわからないけど。&lt;/p&gt;
-
-&lt;p&gt;もう一つ、都市が商業的にバルや立ち飲みバーなどで、近接性を商業にする一方で、地方は財政の問題から、住民間の近接性をあげて、問題を解決する必要がある。そうしないと成り立たなくなる。ポートランド州立大学のスティーブジョンソンは&lt;a href=&#34;http://amzn.to/2ixUEwv&#34;&gt;『Spectator ポートランドの小商い』&lt;/a&gt;の中で、群衆の知恵による問題解決を重要視している。ハード(焼却炉、ハイウェイ）ではなくソフト（リサイクル、乗り合い）などで問題を解決して行くということだ。そういう意味では、地方も近接性をあげて行く必要があるのだろう。税制の問題とは違い、「国土の均衡ある発展」については、票田の関係で解決はされていないが、解決策であるように思った。&lt;/p&gt;
-
-&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=FFFFFF&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=syscoscosite-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B01IGR0T22&amp;linkId=4321a53e4f3e4a053366cd6901127b34&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
   </channel>

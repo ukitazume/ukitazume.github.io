@@ -6,8 +6,35 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 06 Feb 2017 16:05:59 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Feb 2017 10:22:42 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170207</title>
+      <link>http://ukitazume.co/learn/20170207/</link>
+      <pubDate>Tue, 07 Feb 2017 10:22:42 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170207/</guid>
+      <description>
+
+&lt;h3 id=&#34;meeting&#34;&gt;Meeting&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;朝の定例ミーティング&lt;/li&gt;
+&lt;li&gt;面接&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css-htmlを書く&#34;&gt;css/htmlを書く&lt;/h3&gt;
+
+&lt;p&gt;ここら辺もう少しかけないとなと思って、書く。
+rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
+
+&lt;h3 id=&#34;料理&#34;&gt;料理&lt;/h3&gt;
+
+&lt;p&gt;ニシンとカボチャの味噌汁を作って食す。
+自作の納豆もいい感じ。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170206</title>
@@ -27,6 +54,11 @@
 &lt;h3 id=&#34;お金&#34;&gt;お金&lt;/h3&gt;
 
 &lt;p&gt;お金が重要な決定要素になってるので、整理。話し合い。&lt;/p&gt;
+
+&lt;h3 id=&#34;phantom&#34;&gt;Phantom&lt;/h3&gt;
+
+&lt;p&gt;nodeからPhantomを使って見たが、全然上手いこといかず。メモリーがどんどん膨らむ。
+どこで止めるかが難しい。クライアントサイドと一緒になってやったほうがよさそう。&lt;/p&gt;
 </description>
     </item>
     

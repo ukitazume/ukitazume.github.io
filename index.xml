@@ -6,8 +6,27 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Feb 2017 10:22:42 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Feb 2017 21:01:58 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zekkei</title>
+      <link>http://ukitazume.co/post/zekkei/</link>
+      <pubDate>Tue, 07 Feb 2017 21:01:58 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/post/zekkei/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://zekkei-project.com&#34;&gt;死ぬまでに行きたい！世界の絶景&lt;/a&gt; というサイトをここしばらく作っていた。ただこの半年は、わがままを聞いてもらって、プロジェクトから抜けていた。いい写真がたくさん集まっていて、嬉しくなった。いくつか紹介します。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class=&#34;zekkei-embed-photo&#34; data-id=&#34;5784&#34; width=&#34;570&#34; height=&#34;537&#34; src=&#34;https://zekkei-project.com/embed/photos/5784&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;max-width: 570px;width: calc(100% - 2px);margin: 1px;border-width: 0px;border-radius: 4px;box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;&#34;&gt;&lt;/iframe&gt;&lt;script src=&#34;//zekkei-project.com/javascripts/embed.js&#34; async&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class=&#34;zekkei-embed-photo&#34; data-id=&#34;6486&#34; width=&#34;570&#34; height=&#34;537&#34; src=&#34;https://zekkei-project.com/embed/photos/6486&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;max-width: 570px;width: calc(100% - 2px);margin: 1px;border-width: 0px;border-radius: 4px;box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;&#34;&gt;&lt;/iframe&gt;&lt;script src=&#34;//zekkei-project.com/javascripts/embed.js&#34; async&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class=&#34;zekkei-embed-photo&#34; data-id=&#34;6449&#34; width=&#34;570&#34; height=&#34;537&#34; src=&#34;https://zekkei-project.com/embed/photos/6449&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;max-width: 570px;width: calc(100% - 2px);margin: 1px;border-width: 0px;border-radius: 4px;box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;&#34;&gt;&lt;/iframe&gt;&lt;script src=&#34;//zekkei-project.com/javascripts/embed.js&#34; async&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe class=&#34;zekkei-embed-photo&#34; data-id=&#34;6442&#34; width=&#34;570&#34; height=&#34;537&#34; src=&#34;https://zekkei-project.com/embed/photos/6442&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;max-width: 570px;width: calc(100% - 2px);margin: 1px;border-width: 0px;border-radius: 4px;box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;&#34;&gt;&lt;/iframe&gt;&lt;script src=&#34;//zekkei-project.com/javascripts/embed.js&#34; async&gt;&lt;/script&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>20170207</title>
@@ -542,21 +561,6 @@ ex = xe = x.&lt;/p&gt;
 &lt;p&gt;ゼリーのようで、和菓子のようでもあり、実際は果物で、ドライフルーツだけど、完全にドライではない、たくさん食べても罪悪感がない、体にいいのではとさえ思ってしまう。あの市田柿。&lt;/p&gt;
 
 &lt;p&gt;もう、食べたさが止まらないので、明日は別のスーパーを見てみようと思う。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>プログラマへの復帰</title>
-      <link>http://ukitazume.co/post/nodejs/</link>
-      <pubDate>Sun, 22 Jan 2017 23:36:05 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/post/nodejs/</guid>
-      <description>&lt;p&gt;誕生日を迎えて、歳をとった。去年できた両親が家に遊びにきて、おでんを作ってもてなした。Nodejsでスクレイピングスクリプトを書いた。楽しかった。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;春には社会人10年目になる。半分以上はコードを書いてたけど、ここ数年(3~4年)かメインではプログラマーではない職業をやっていた。プリセールスやサポートエンジニアでご飯を食べてきた。時間を見つけて、小さいプログラムは書いていたものの、仕事時間に書いていないので、大きくプログラムを書く時間は減っていた。&lt;/p&gt;
-
-&lt;p&gt;もっと書きたいなと思っている。ブランクのぶん、技術のキャッチアップも必要だ。新しく触れるものがあることは楽しい。しかし、プログラムを書くのには気力も体力も必要だ。いい年にしたい。&lt;/p&gt;</description>
     </item>
     
   </channel>

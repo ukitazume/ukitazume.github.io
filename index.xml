@@ -6,8 +6,89 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Feb 2017 21:01:58 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Feb 2017 09:41:47 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170208</title>
+      <link>http://ukitazume.co/learn/20170208/</link>
+      <pubDate>Wed, 08 Feb 2017 09:41:47 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170208/</guid>
+      <description>
+
+&lt;h3 id=&#34;パソコンの限界&#34;&gt;パソコンの限界&lt;/h3&gt;
+
+&lt;p&gt;しばらく買い換えていないパソコンに限界の匂いが漂ってきた。
+新しいMacbook Proの評判が悪くどうしようか悩んでいる。&lt;/p&gt;
+
+&lt;p&gt;Apple ThunderboltDisplay は使えるみたいですね Thunderbolt3で
+&lt;a href=&#34;https://support.apple.com/ja-jp/HT207266&#34;&gt;https://support.apple.com/ja-jp/HT207266&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ogpなどなど&#34;&gt;OGPなどなど&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;twitter カードの仕様 &lt;a href=&#34;https://dev.twitter.com/cards/types/summary&#34;&gt;https://dev.twitter.com/cards/types/summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;リッチスニペットへの対応　&lt;a href=&#34;http://schema.org&#34;&gt;http://schema.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SEO&lt;/li&gt;
+&lt;li&gt;OGP &lt;a href=&#34;http://ogp.me&#34;&gt;http://ogp.me&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;twitter-card&#34;&gt;Twitter Card&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;twitter:card&lt;/li&gt;
+&lt;li&gt;twitter:site&lt;/li&gt;
+&lt;li&gt;twitter:title&lt;/li&gt;
+&lt;li&gt;twitter:description&lt;/li&gt;
+&lt;li&gt;twitter:image&lt;/li&gt;
+&lt;li&gt;twitter:image:alt&lt;/li&gt;
+&lt;li&gt;twitter:creator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ogp&#34;&gt;OGP&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;og:title&lt;/li&gt;
+&lt;li&gt;og:type&lt;/li&gt;
+&lt;li&gt;og:url&lt;/li&gt;
+&lt;li&gt;og:image&lt;/li&gt;
+&lt;li&gt;og:description&lt;/li&gt;
+&lt;li&gt;og:locale&lt;/li&gt;
+&lt;li&gt;og:locale:alternate&lt;/li&gt;
+&lt;li&gt;og:site_name&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;fb&#34;&gt;FB&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fb:app_id&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;schema-リッチスニペット&#34;&gt;Schema (リッチスニペット)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JSON-Lフォーマットを推してる&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;どんなtypeがあるのか調べてみたが、関係ありそうなものがなかった &lt;a href=&#34;https://developers.google.com/search/docs/guides/mark-up-content&#34;&gt;https://developers.google.com/search/docs/guides/mark-up-content&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Breadcrumbs は行けそう　&lt;a href=&#34;https://developers.google.com/search/docs/data-types/breadcrumbs&#34;&gt;https://developers.google.com/search/docs/data-types/breadcrumbs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;国 &amp;gt; Prefecture &amp;gt; Spot &amp;gt; Photo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ただ、構造化データテストツールだと、htmlそのままで解釈されないようだったので、多分ダメ。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fbの通知機能&#34;&gt;FBの通知機能&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developers.facebook.com/docs/games/services/appnotifications&#34;&gt;https://developers.facebook.com/docs/games/services/appnotifications&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;落語&#34;&gt;落語&lt;/h3&gt;
+
+&lt;p&gt;らくごのスクレイピングツールを作っている。7年前ぐらいに作ったのがまだ動いていたので少し改良している。
+&lt;a href=&#34;http://www.rakupachi.net/blog/&#34;&gt;http://www.rakupachi.net/blog/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>zekkei</title>
@@ -540,27 +621,6 @@ ex = xe = x.&lt;/p&gt;
       <guid>http://ukitazume.co/learn/helloworld/</guid>
       <description>&lt;p&gt;I am an endless learner. Programming, History, Math, English and so on.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>市田柿</title>
-      <link>http://ukitazume.co/post/ichidagaki/</link>
-      <pubDate>Tue, 24 Jan 2017 22:43:37 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/post/ichidagaki/</guid>
-      <description>&lt;p&gt;干し柿というか、市田柿がすごく好きだ。年末に実家に帰ると、いつも置いてあって、ここぞとばかりにたくさん食べていた。ところが今年は実家になかったのである。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;どこのスーパーにも、冬になると市田柿が並ぶ。とても高く、1パック600~700円する。普段の買い物では手が出ない。それに実家に帰ったらきっとあると思って、スーパーでは見て見ぬ振りをして、欲望をやり過ごしている。&lt;/p&gt;
-
-&lt;p&gt;今年は実家になかった。それでも騒ぎ立てることはなく、残念だなと思うぐらいのものだった。&lt;/p&gt;
-
-&lt;p&gt;ところが今日、JAのスーパーでその市田柿が半額になっていたのだ。それに気づいたのは別のお客さんの買い物カゴの中に、大量の市田柿が入っていたからだ。そのパックには半額のシールが貼られていたのだ。しかし、時すでに遅し、売り場には一パックも残されていなかった。しめしめ、独占したぞというような、ことを喋りながら（多分）、その夫婦はレジに向かった。そして赤いプリウスに乗って(市田柿と一緒に）走り去っていった。5~6パックは買っていたのではないだろうか。そんなに食べられるのか。そんなに燃費良く走りたいのか。なんで赤を選んだのか。&lt;/p&gt;
-
-&lt;p&gt;ゼリーのようで、和菓子のようでもあり、実際は果物で、ドライフルーツだけど、完全にドライではない、たくさん食べても罪悪感がない、体にいいのではとさえ思ってしまう。あの市田柿。&lt;/p&gt;
-
-&lt;p&gt;もう、食べたさが止まらないので、明日は別のスーパーを見てみようと思う。&lt;/p&gt;</description>
     </item>
     
   </channel>

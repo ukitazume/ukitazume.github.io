@@ -6,8 +6,29 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Feb 2017 12:10:45 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Feb 2017 10:05:06 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170214</title>
+      <link>http://ukitazume.co/learn/20170214/</link>
+      <pubDate>Tue, 14 Feb 2017 10:05:06 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170214/</guid>
+      <description>&lt;p&gt;朝ミーティング2件。
+Bitbucketのpipeline用に、ruby+mysqlのimage作成。Dockerfileは-fオプションで指定できる変更入ってた。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20170213</title>
+      <link>http://ukitazume.co/learn/20170213/</link>
+      <pubDate>Mon, 13 Feb 2017 11:01:34 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170213/</guid>
+      <description>&lt;p&gt;今日は東京で仕事。移動時間が大きくなってしまうけど、なるべく車内の時間を有効に使いたい。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170209</title>

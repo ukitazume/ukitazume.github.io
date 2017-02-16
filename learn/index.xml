@@ -6,8 +6,29 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Feb 2017 10:05:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 16 Feb 2017 21:26:29 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170216</title>
+      <link>http://ukitazume.co/learn/20170216/</link>
+      <pubDate>Thu, 16 Feb 2017 21:26:29 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170216/</guid>
+      <description>&lt;p&gt;terraformにansible.
+風邪は治りかけ、味噌汁だけ作った。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20170215</title>
+      <link>http://ukitazume.co/learn/20170215/</link>
+      <pubDate>Wed, 15 Feb 2017 08:54:12 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170215/</guid>
+      <description>&lt;p&gt;しばらくひいてなかった風邪をひいた。家で作業しているので、問題なく仕事ができる程度の風邪。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170214</title>
@@ -15,8 +36,14 @@
       <pubDate>Tue, 14 Feb 2017 10:05:06 +0900</pubDate>
       
       <guid>http://ukitazume.co/learn/20170214/</guid>
-      <description>&lt;p&gt;朝ミーティング2件。
-Bitbucketのpipeline用に、ruby+mysqlのimage作成。Dockerfileは-fオプションで指定できる変更入ってた。&lt;/p&gt;
+      <description>&lt;p&gt;朝ミーティング2件。&lt;/p&gt;
+
+&lt;p&gt;Bitbucketのpipeline用に、ruby+mysqlのimage作成。Dockerfileは-fオプションで指定できる変更入ってた。
+実際はそれ用のimageが用意されていたが、　MySQL 5.5 だったので、5.6用のものを作成。
+&lt;a href=&#34;https://confluence.atlassian.com/bitbucket/ruby-with-bitbucket-pipelines-872005618.html&#34;&gt;https://confluence.atlassian.com/bitbucket/ruby-with-bitbucket-pipelines-872005618.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Rspec 3.5から変更があって、shared_contextが変わってて動かなかった。それも修正。
+&lt;a href=&#34;http://rspec.info/ja/blog/2016/07/rspec-3-5-has-been-released/&#34;&gt;http://rspec.info/ja/blog/2016/07/rspec-3-5-has-been-released/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -567,53 +594,6 @@ ex = xe = x.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/ceteri/jem-video/tree/master/src&#34;&gt;https://github.com/ceteri/jem-video/tree/master/src&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.mathsisfun.com/algebra/index-2.html&#34;&gt;http://www.mathsisfun.com/algebra/index-2.html&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170127</title>
-      <link>http://ukitazume.co/learn/20170127/</link>
-      <pubDate>Fri, 27 Jan 2017 11:22:47 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170127/</guid>
-      <description>
-
-&lt;h3 id=&#34;hugoの設定&#34;&gt;Hugoの設定&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;勉強したことのログを残せるように変更した。Layoutは特定される順に落ちていく。 &lt;code&gt;specified content -&amp;gt; default -&amp;gt; theme&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;jenkins&#34;&gt;Jenkins&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;kubernetesで動かしていたJenkinsで、Chromedriverが見つからなくて、Seleniumのテストがエラー。ChromedriverをインストールしたDocker Imageを用意することにした。そしたら動いた。 - とみえたが、動いてなかった。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nightwatchjs/nightwatch/issues/913&#34;&gt;https://github.com/nightwatchjs/nightwatch/issues/913&lt;/a&gt; に従って、updateして見た。ダメだった。&lt;/li&gt;
-&lt;li&gt;jenkinsようにseleniumクラスターを立ち上げるという方法もあるが、kubernetesの容量足りずに断念&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;shell&#34;&gt;Shell&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;parameter extention  変数チェックの時に  &lt;code&gt;+&lt;/code&gt; が使えた。
-&lt;a href=&#34;http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02&#34;&gt;http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_06_02&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Jenkinsをいじるために、heapstarを入れたり、なんだりしたが、いまいち上手く動かず。少しわかってきて、わからなことが続出した感じ。ドキュメントを落ち着いて読んでみようと思う。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>helloworld</title>
-      <link>http://ukitazume.co/learn/helloworld/</link>
-      <pubDate>Fri, 27 Jan 2017 10:31:15 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/helloworld/</guid>
-      <description>&lt;p&gt;I am an endless learner. Programming, History, Math, English and so on.&lt;/p&gt;
 </description>
     </item>
     

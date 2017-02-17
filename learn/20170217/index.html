@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    20170216 | ukitazume.co
+    20170217 | ukitazume.co
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://ukitazume.co/learn/20170216/"/>
+  <link rel="canonical" href="http://ukitazume.co/learn/20170217/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -66,15 +66,43 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>20170216</h1>
+      <h1>20170217</h1>
       <div class="meta">
-        Feb 16, 2017 &nbsp;
+        Feb 17, 2017 &nbsp;
         
       </div>
     </div>
     <article>
-      <p>terraformにansible.
-風邪は治りかけ、味噌汁だけ作った。</p>
+      
+
+<h2 id="インフラの設定">インフラの設定</h2>
+
+<p>　
+VPC -&gt; Subnet(AZ) -&gt; Instance</p>
+
+<p><a href="http://qiita.com/nisshiee/items/df4261132ec686964605">http://qiita.com/nisshiee/items/df4261132ec686964605</a></p>
+
+<ul>
+<li>ただ、RDSはAZをまたぐので、複数指定する。それが、subnetgroup</li>
+<li>Security Group はIOのネットワークルールでsubnetを対象に適応できる</li>
+</ul>
+
+<h2 id="terraform">Terraform</h2>
+
+<p>リソース名は、内部で参照するためのもので、AWSの名前は関係ない
+AWS console上の名前はTagの <code>Name</code> をとるのでそこで設定</p>
+
+<h2 id="ansible">Ansible</h2>
+
+<p>rubyのインストールをrbenv経由にした。面倒。dockerの方が良かったかな。</p>
+
+<h2 id="redmineを使うことになり">redmineを使うことになり</h2>
+
+<p>ローカルで建ててみた。サーバーはどうしよう。</p>
+
+<h2 id="昔書いたansible-の実行">昔書いたansible の実行</h2>
+
+<p>うーん。動かなくなってる部分があった、ci必要。</p>
 
       
       
@@ -82,10 +110,8 @@
     </article>
   <nav class="pagination-single">
     
-      <span class="previous">&larr; <a href="http://ukitazume.co/learn/20170215/" rel="prev">20170215</a></span>
+      <span class="previous">&larr; <a href="http://ukitazume.co/learn/20170216/" rel="prev">20170216</a></span>
     
-    
-      <span class="next"><a href="http://ukitazume.co/learn/20170217/" rel="next">20170217</a> &rarr;</span>
     
   </nav>
 

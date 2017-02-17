@@ -6,8 +6,47 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Feb 2017 21:26:29 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Feb 2017 12:06:54 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170217</title>
+      <link>http://ukitazume.co/learn/20170217/</link>
+      <pubDate>Fri, 17 Feb 2017 12:06:54 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170217/</guid>
+      <description>
+
+&lt;h2 id=&#34;インフラの設定&#34;&gt;インフラの設定&lt;/h2&gt;
+
+&lt;p&gt;　
+VPC -&amp;gt; Subnet(AZ) -&amp;gt; Instance&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/nisshiee/items/df4261132ec686964605&#34;&gt;http://qiita.com/nisshiee/items/df4261132ec686964605&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ただ、RDSはAZをまたぐので、複数指定する。それが、subnetgroup&lt;/li&gt;
+&lt;li&gt;Security Group はIOのネットワークルールでsubnetを対象に適応できる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;terraform&#34;&gt;Terraform&lt;/h2&gt;
+
+&lt;p&gt;リソース名は、内部で参照するためのもので、AWSの名前は関係ない
+AWS console上の名前はTagの &lt;code&gt;Name&lt;/code&gt; をとるのでそこで設定&lt;/p&gt;
+
+&lt;h2 id=&#34;ansible&#34;&gt;Ansible&lt;/h2&gt;
+
+&lt;p&gt;rubyのインストールをrbenv経由にした。面倒。dockerの方が良かったかな。&lt;/p&gt;
+
+&lt;h2 id=&#34;redmineを使うことになり&#34;&gt;redmineを使うことになり&lt;/h2&gt;
+
+&lt;p&gt;ローカルで建ててみた。サーバーはどうしよう。&lt;/p&gt;
+
+&lt;h2 id=&#34;昔書いたansible-の実行&#34;&gt;昔書いたansible の実行&lt;/h2&gt;
+
+&lt;p&gt;うーん。動かなくなってる部分があった、ci必要。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170216</title>
@@ -404,55 +443,6 @@ rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
       
       <guid>http://ukitazume.co/note/math/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>20170130</title>
-      <link>http://ukitazume.co/learn/20170130/</link>
-      <pubDate>Mon, 30 Jan 2017 08:45:38 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170130/</guid>
-      <description>
-
-&lt;p&gt;1月が終わろうとしている。&lt;/p&gt;
-
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-
-&lt;h4 id=&#34;infinity&#34;&gt;Infinity&lt;/h4&gt;
-
-&lt;p&gt;Math is funにて、今月のピックアップInfinity。わかりやすい英語で、わかりやすい解説で書かれている。
-&lt;a href=&#34;http://www.mathsisfun.com/numbers/infinity.html&#34;&gt;http://www.mathsisfun.com/numbers/infinity.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;googol&lt;/li&gt;
-&lt;li&gt;googolplex&lt;/li&gt;
-&lt;li&gt;googolplexian&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;algorithm-and-data-structure&#34;&gt;Algorithm and Data Structure&lt;/h3&gt;
-
-&lt;p&gt;Couseraのただの方から見て見る。Java実装みたいだけど&lt;/p&gt;
-
-&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Bad programmers worry about the code. Good programmers worry about data structures and their relationships.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;— Linus Torvalds (creator of Linux)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Algorithms + Data Structures = Programs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Niklaus Wirth&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
-
-&lt;p&gt;JIRAを少しずつ理解してきた。Screen, Field等々。勉強のプランニングに使用中。&lt;/p&gt;
-</description>
     </item>
     
   </channel>

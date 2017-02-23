@@ -6,8 +6,39 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Feb 2017 08:55:41 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 23 Feb 2017 10:54:18 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170223</title>
+      <link>http://ukitazume.co/learn/20170223/</link>
+      <pubDate>Thu, 23 Feb 2017 10:54:18 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170223/</guid>
+      <description>&lt;p&gt;terraformをたくさん。moduleがわかって、複数環境向けに書き直し。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20170222</title>
+      <link>http://ukitazume.co/learn/20170222/</link>
+      <pubDate>Wed, 22 Feb 2017 00:17:07 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170222/</guid>
+      <description>&lt;p&gt;東京。仕事とAppStoreでイベントと懇親会。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20170221</title>
+      <link>http://ukitazume.co/learn/20170221/</link>
+      <pubDate>Tue, 21 Feb 2017 10:03:10 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170221/</guid>
+      <description>&lt;p&gt;仕事二週目。unityとxcodeに、cloud9, cakephpを見ることに。デバックだけだけど。
+awsのcodedeployに、systemd, ansible, terraformと色々触ってた。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>『昭和史 1926-1945』半藤一利</title>
@@ -299,153 +330,6 @@ rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
 
 &lt;p&gt;nodeからPhantomを使って見たが、全然上手いこといかず。メモリーがどんどん膨らむ。
 どこで止めるかが難しい。クライアントサイドと一緒になってやったほうがよさそう。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170203</title>
-      <link>http://ukitazume.co/learn/20170203/</link>
-      <pubDate>Fri, 03 Feb 2017 09:54:09 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170203/</guid>
-      <description>
-
-&lt;p&gt;節分だ。あっという間に一月が終わった。
-技術的なキャッチアップというのか穴埋めというのか、色々みているが、やることが多すぎて逆に何もしなかったり、作る方に走ってしまったり。&lt;/p&gt;
-
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-
-&lt;p&gt;Just Enough Mathの続きを見る、Liner Algebra。これで数学とプログラムのつながりを理解しておいて、数学とプログラムを勉強しようと思う。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170202</title>
-      <link>http://ukitazume.co/learn/20170202/</link>
-      <pubDate>Thu, 02 Feb 2017 08:47:07 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170202/</guid>
-      <description>
-
-&lt;h3 id=&#34;サーバーの整理&#34;&gt;サーバーの整理&lt;/h3&gt;
-
-&lt;p&gt;kubernetesに集約していく。VPSを減らす。&lt;/p&gt;
-
-&lt;h4 id=&#34;redis-on-kuberentes&#34;&gt;Redis on Kuberentes&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ドキュメントに従った。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/kubernetes/tree/master/examples/storage/redis&#34;&gt;https://github.com/kubernetes/kubernetes/tree/master/examples/storage/redis&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;redis-sentinel service から、redis-cliで接続、 kubectlでマニュアルmaster &amp;amp; Sentinelをdownさせ、様子を伺った。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;down&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;10.97.170.0:26379&amp;gt; sentinel master mymaster
- 1) &amp;quot;name&amp;quot;
- 2) &amp;quot;mymaster&amp;quot;
- 3) &amp;quot;ip&amp;quot;
- 4) &amp;quot;192.168.228.214&amp;quot;
- 5) &amp;quot;port&amp;quot;
- 6) &amp;quot;6379&amp;quot;
- 7) &amp;quot;runid&amp;quot;
- 8) &amp;quot;955122ca3f7aba7eaefddb587cd7e6fda4d9d2d0&amp;quot;
- 9) &amp;quot;flags&amp;quot;
-10) &amp;quot;s_down,master&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;入れ替わった&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;10.97.170.0:26379&amp;gt; sentinel master mymaster
-1) &amp;quot;name&amp;quot;
-2) &amp;quot;mymaster&amp;quot;
-3) &amp;quot;ip&amp;quot;
-4) &amp;quot;192.168.104.43&amp;quot;
-5) &amp;quot;port&amp;quot;
-6) &amp;quot;6379&amp;quot;
-7) &amp;quot;runid&amp;quot;
-8) &amp;quot;28ed0d399683191290ed82e4192747611f5ddc92&amp;quot;
-9) &amp;quot;flags&amp;quot;
-10) &amp;quot;master&amp;quot;
-11) &amp;quot;pending-commands&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;これで、sentinel x 3 / redis x 3 立ち上がって、一人がmasterに選ばれている。sentinelはkubernetesのservice discovery で, redis-masterはsentinel からdiscoveryする。&lt;/p&gt;
-
-&lt;p&gt;しかし、client libraryがきっと対応している。少しみてみると&lt;/p&gt;
-
-&lt;p&gt;rubyはいける。
-&lt;a href=&#34;https://github.com/redis/redis-rb/blob/master/examples/sentinel.rb#L27&#34;&gt;https://github.com/redis/redis-rb/blob/master/examples/sentinel.rb#L27&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;nodejsはioredisが行けそう
-&lt;a href=&#34;https://github.com/luin/ioredis#sentinel&#34;&gt;https://github.com/luin/ioredis#sentinel&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;gitlab&#34;&gt;GitLab&lt;/h3&gt;
-
-&lt;p&gt;復旧作業をライブストリーミングしてたみたい。すごいなぁ。かっこいいな。事故とそのあとのオープンさ、対応の仕方。
-災い転じてなんとやらなのか。見せるだけの実力がちゃんとあることと、自己の捉え方について、かっこいいなと思った次第です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nc0hPGerSd4&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=nc0hPGerSd4&amp;amp;feature=youtu.be&lt;/a&gt;
-&lt;a href=&#34;https://togetter.com/li/1076845?page=2&#34;&gt;https://togetter.com/li/1076845?page=2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;他、落語系の開発して、終了。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170201</title>
-      <link>http://ukitazume.co/learn/20170201/</link>
-      <pubDate>Wed, 01 Feb 2017 09:24:47 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170201/</guid>
-      <description>
-
-&lt;h2 id=&#34;grpc-を見てみる&#34;&gt;gRPC を見てみる&lt;/h2&gt;
-
-&lt;p&gt;サービス間を型ありで繋ぎたい。アーキテクチャーの参考にもなるかと、ドキュメントを流し読み。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;gRPC は Google が開発しているRPC(リモートプロシージャコール)のライブラリとフレームワークで、通信層は HTTP/2 を介して行われます。
-データ層については、固定されている訳ではなくあくまでデフォルトで Protocol Buffers が使われる様になっています。使用出来るプログラミング言語は現在、C++, Node.js, Python, Ruby, Objective-C, PHP, C# となっています。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mattn.kaoriya.net/software/lang/go/20150227144125.htm&#34;&gt;http://mattn.kaoriya.net/software/lang/go/20150227144125.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;型だけじゃなくて、インターフェース定義&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;gRPCを使うと、クライアントアプリケーションは直接、ローカルのオブジェクトのように、他のマシンのサーバーアプリケーションのメソッドを呼ぶことができ、 分散したアプリケーションやサービスを簡単に作ることができる。 多くのRPCシステムと同様に、gRPCはサービスを定義し、リモートから呼べるメソッドと、そのパラメーターおよび返り値の型を記述するようになっている。 サーバーサイドではインタフェースを実装し、クライアントからの呼び出しをハンドリングするgRPCサーバーを実行する。 クライアントサイドでは、サーバーと同じメソッドを提供するスタブを持っている。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sambaiz.net/article/12/&#34;&gt;http://sambaiz.net/article/12/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ほう。コネクションさえしてれば、クライアントのメソッドのように呼べる。
-インターフェース定義を共有して、コネクションに対して、ローカルメソッドのように呼び出すことができる。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;r, err := c.RetEcho(context.Background(), &amp;amp;pb.EchoRequest{Say: &amp;quot;hello&amp;quot;})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/grpc/grpc&#34;&gt;https://github.com/grpc/grpc&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;gitlab-melts-down&#34;&gt;Gitlab melts down&lt;/h2&gt;
-
-&lt;p&gt;GitLab.comがオペレーション中に謝って、DatabaseのDataを消してしまったらしい。各リカバリー策もうまく動かず。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/?mt=1485916372982&#34;&gt;https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/?mt=1485916372982&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;悲しすぎる。問題の発生とリカバリーの試みのログがみれる。
-&lt;a href=&#34;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&#34;&gt;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;時間がかかりすぎる処理、スパムによる高負荷、それによる、レプリケーションのラグの発生、遅い時間の作業、同僚のヘルプが休みで得られないタイミング。いろんなことが重なって、opsが少ないと起こりそうなことな気がした。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;バックアップが動いているかのテスト&lt;/li&gt;
-&lt;li&gt;opsをひとりにしない&lt;/li&gt;
-&lt;li&gt;作業を分割する&lt;/li&gt;
-&lt;li&gt;夜にsudoは使わない&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

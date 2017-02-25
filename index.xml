@@ -6,8 +6,21 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 Feb 2017 10:54:18 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Feb 2017 11:51:34 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Team Geek</title>
+      <link>http://ukitazume.co/post/teamgeek/</link>
+      <pubDate>Sat, 25 Feb 2017 11:51:34 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/post/teamgeek/</guid>
+      <description>&lt;p&gt;大げさな名前の本だけど、Brianと Fizの『Team Geek』を読んだ。タイトルはアイロニーなんじゃないかと思うほど、コンピューターエンジニアに対する、働き方の忠告や指南に思えた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;ソフトウェアの世界と、人間の世界の差を例を挙げて記述し、それとどううまく向き合って行くかについて書いてる。そして人と仕事をする上では、謙虚、尊敬、信頼が重要で、その先にはチーム、上司、会社、ユーザーがいるんだと。仕事の見せ方や調整の仕方も具体的に書いている。為になった。エンジニアリングだけに目を向けすぎても仕事は進まない。プログラミングができることは置き換え可能な何かで、仕事をしなくてはいけない。どの職業もその特殊性がピックアップされるが、それはどの職業もである。気をつけていこう。　&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>20170223</title>
@@ -304,32 +317,6 @@ rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
 
 &lt;p&gt;ニシンとカボチャの味噌汁を作って食す。
 自作の納豆もいい感じ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170206</title>
-      <link>http://ukitazume.co/learn/20170206/</link>
-      <pubDate>Mon, 06 Feb 2017 16:05:59 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170206/</guid>
-      <description>
-
-&lt;p&gt;就活などで、東京に行って数日PC前から離れて、ログが抜けた。&lt;/p&gt;
-
-&lt;h3 id=&#34;talk&#34;&gt;Talk&lt;/h3&gt;
-
-&lt;p&gt;アメリカにいた時にお世話になった人とSkype
-他、スカイプで仕事。&lt;/p&gt;
-
-&lt;h3 id=&#34;お金&#34;&gt;お金&lt;/h3&gt;
-
-&lt;p&gt;お金が重要な決定要素になってるので、整理。話し合い。&lt;/p&gt;
-
-&lt;h3 id=&#34;phantom&#34;&gt;Phantom&lt;/h3&gt;
-
-&lt;p&gt;nodeからPhantomを使って見たが、全然上手いこといかず。メモリーがどんどん膨らむ。
-どこで止めるかが難しい。クライアントサイドと一緒になってやったほうがよさそう。&lt;/p&gt;
 </description>
     </item>
     

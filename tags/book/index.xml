@@ -9,6 +9,19 @@
     <atom:link href="http://ukitazume.co/tags/book/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Team Geek</title>
+      <link>http://ukitazume.co/post/teamgeek/</link>
+      <pubDate>Sat, 25 Feb 2017 11:51:34 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/post/teamgeek/</guid>
+      <description>&lt;p&gt;大げさな名前の本だけど、Brianと Fizの『Team Geek』を読んだ。タイトルはアイロニーなんじゃないかと思うほど、コンピューターエンジニアに対する、働き方の忠告や指南に思えた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;ソフトウェアの世界と、人間の世界の差を例を挙げて記述し、それとどううまく向き合って行くかについて書いてる。そして人と仕事をする上では、謙虚、尊敬、信頼が重要で、その先にはチーム、上司、会社、ユーザーがいるんだと。仕事の見せ方や調整の仕方も具体的に書いている。為になった。エンジニアリングだけに目を向けすぎても仕事は進まない。プログラミングができることは置き換え可能な何かで、仕事をしなくてはいけない。どの職業もその特殊性がピックアップされるが、それはどの職業もである。気をつけていこう。　&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>速水健朗『東京どこに住む？　住所格差と人生格差 』</title>
       <link>http://ukitazume.co/post/wherelive/</link>
       <pubDate>Sun, 15 Jan 2017 08:45:21 +0900</pubDate>

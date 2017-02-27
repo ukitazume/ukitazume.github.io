@@ -6,8 +6,41 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 Feb 2017 10:54:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 11:34:04 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170227</title>
+      <link>http://ukitazume.co/learn/20170227/</link>
+      <pubDate>Mon, 27 Feb 2017 11:34:04 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170227/</guid>
+      <description>
+
+&lt;p&gt;昨日は東京に賃貸を探した。いい物件が見つかって、懐かしいお店、中目黒のお好み焼きを食べて帰宅。日帰りで決められた。&lt;/p&gt;
+
+&lt;h3 id=&#34;活-が流行する背景に人々の巨大な勘違いがあることを指摘しました-引用&#34;&gt;｢◯活｣が流行する背景に人々の巨大な勘違いがあることを指摘しました 引用&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://lite.blogos.com/article/109807/&#34;&gt;http://lite.blogos.com/article/109807/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;自分の最終目的を支える価値が、利他性や貢献性と結びつくものであることが、最も強い動機づけを与えるのです。この強い動機づけに基づく行為は、成功すれば、個人を超えた充実や幸せにつながり、失敗しても、挫けない力を与えます。&lt;/p&gt;
+
+&lt;p&gt;けんかが弱ければ、強い子と友だちになればよく、勉強ができなければ、できる子と友たちになればよい。｢持ちつ持たれつ」で共同体的に結合していけば、個人が万能である必要はない。&lt;/p&gt;
+
+&lt;p&gt;｢自分で何もかもしなくては⋯」と過剰に思い込む人は、〈最適化〉原理に駆られがちになって不安や抑うつ感から逃れられなくなります。現にそういう人ばかりでしょう。だからこそ、自覚的に、ものごとの評価を〈満足化〉原理に引き戻すことが重要です。そのためには、自らを包摂する共同体、すなわち「出撃基地であり帰還場所であるようなホームベース」を築いていくことが不可欠です。そうすれば〈満足化〉に簡単に近づけます。&lt;/p&gt;
+
+&lt;p&gt;最適化〉は経済（資本）の原理。〈満足化〉は社会（人間）の原理。〈最適化〉への過剰な傾斜は、｢経済回って社会回らず」とも言うべき、個人が分断された「空洞化した社会」を象徴します。&lt;/p&gt;
+
+&lt;p&gt;｢これさえすれば子供が幸せになる」｢勝たないと置いていかれる」と考える時点で、〈感情の劣化〉を被っています。〈感情の劣化〉とは、他者や共同体に貢献する気持ちが働かないこと。つまり、損得勘定による〈自発性〉を超えた、内から涌く力としての〈内発性〉が生じないこと。&lt;/p&gt;
+
+&lt;p&gt;自分の最終目的を支える価値が、利他性や貢献性と結びつくものであることが、最も強い動機づけを与えるのです。この強い動機づけに基づく行為は、成功すれば、個人を超えた充実や幸せにつながり、失敗しても、挫けない力を与えます。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;lodashにて、配列をマージすると、その子要素のオブジェクトの中身までは見てくれないただ、&lt;code&gt;_.mergeWith()&lt;/code&gt;　メソッドがあったので、再帰でマージの仕方を支持できた。
+就職前のお休み、仕事はそれくらいにして、本を読む。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170223</title>
@@ -368,61 +401,6 @@ rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
 &lt;a href=&#34;https://togetter.com/li/1076845?page=2&#34;&gt;https://togetter.com/li/1076845?page=2&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;他、落語系の開発して、終了。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170201</title>
-      <link>http://ukitazume.co/learn/20170201/</link>
-      <pubDate>Wed, 01 Feb 2017 09:24:47 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170201/</guid>
-      <description>
-
-&lt;h2 id=&#34;grpc-を見てみる&#34;&gt;gRPC を見てみる&lt;/h2&gt;
-
-&lt;p&gt;サービス間を型ありで繋ぎたい。アーキテクチャーの参考にもなるかと、ドキュメントを流し読み。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;gRPC は Google が開発しているRPC(リモートプロシージャコール)のライブラリとフレームワークで、通信層は HTTP/2 を介して行われます。
-データ層については、固定されている訳ではなくあくまでデフォルトで Protocol Buffers が使われる様になっています。使用出来るプログラミング言語は現在、C++, Node.js, Python, Ruby, Objective-C, PHP, C# となっています。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mattn.kaoriya.net/software/lang/go/20150227144125.htm&#34;&gt;http://mattn.kaoriya.net/software/lang/go/20150227144125.htm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;型だけじゃなくて、インターフェース定義&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;gRPCを使うと、クライアントアプリケーションは直接、ローカルのオブジェクトのように、他のマシンのサーバーアプリケーションのメソッドを呼ぶことができ、 分散したアプリケーションやサービスを簡単に作ることができる。 多くのRPCシステムと同様に、gRPCはサービスを定義し、リモートから呼べるメソッドと、そのパラメーターおよび返り値の型を記述するようになっている。 サーバーサイドではインタフェースを実装し、クライアントからの呼び出しをハンドリングするgRPCサーバーを実行する。 クライアントサイドでは、サーバーと同じメソッドを提供するスタブを持っている。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sambaiz.net/article/12/&#34;&gt;http://sambaiz.net/article/12/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ほう。コネクションさえしてれば、クライアントのメソッドのように呼べる。
-インターフェース定義を共有して、コネクションに対して、ローカルメソッドのように呼び出すことができる。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;r, err := c.RetEcho(context.Background(), &amp;amp;pb.EchoRequest{Say: &amp;quot;hello&amp;quot;})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/grpc/grpc&#34;&gt;https://github.com/grpc/grpc&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;gitlab-melts-down&#34;&gt;Gitlab melts down&lt;/h2&gt;
-
-&lt;p&gt;GitLab.comがオペレーション中に謝って、DatabaseのDataを消してしまったらしい。各リカバリー策もうまく動かず。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/?mt=1485916372982&#34;&gt;https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/?mt=1485916372982&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;悲しすぎる。問題の発生とリカバリーの試みのログがみれる。
-&lt;a href=&#34;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&#34;&gt;https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;時間がかかりすぎる処理、スパムによる高負荷、それによる、レプリケーションのラグの発生、遅い時間の作業、同僚のヘルプが休みで得られないタイミング。いろんなことが重なって、opsが少ないと起こりそうなことな気がした。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;バックアップが動いているかのテスト&lt;/li&gt;
-&lt;li&gt;opsをひとりにしない&lt;/li&gt;
-&lt;li&gt;作業を分割する&lt;/li&gt;
-&lt;li&gt;夜にsudoは使わない&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

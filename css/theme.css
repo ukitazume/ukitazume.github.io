@@ -84,7 +84,7 @@ img {
   max-width: 100%;
   height: auto;
   border: 0;
-  vertical-align: middle;
+  vertical-align: left;
 }
 header {
   padding: 20px 0;
@@ -218,8 +218,7 @@ article blockquote {
 }
 article img {
   display: block;
-  margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 article #share-this {
   margin: 40px 0 40px 0;

@@ -6,8 +6,30 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Feb 2017 11:34:04 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Mar 2017 21:40:12 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170305</title>
+      <link>http://ukitazume.co/learn/20170305/</link>
+      <pubDate>Sun, 05 Mar 2017 21:40:12 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170305/</guid>
+      <description>&lt;p&gt;土曜日はバスに乗って東京へ。シェアハウスの友達の結婚式へ。
+日曜日は結婚式に参列していた、高澤さんと群馬散策。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20170301</title>
+      <link>http://ukitazume.co/learn/20170301/</link>
+      <pubDate>Wed, 01 Mar 2017 09:40:45 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170301/</guid>
+      <description>&lt;p&gt;朝6時のバスで東京へ。6時のバスに乗り、9時に伊勢崎。
+初日終了。へとへと。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170227</title>
@@ -309,98 +331,6 @@ rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
 
 &lt;p&gt;nodeからPhantomを使って見たが、全然上手いこといかず。メモリーがどんどん膨らむ。
 どこで止めるかが難しい。クライアントサイドと一緒になってやったほうがよさそう。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170203</title>
-      <link>http://ukitazume.co/learn/20170203/</link>
-      <pubDate>Fri, 03 Feb 2017 09:54:09 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170203/</guid>
-      <description>
-
-&lt;p&gt;節分だ。あっという間に一月が終わった。
-技術的なキャッチアップというのか穴埋めというのか、色々みているが、やることが多すぎて逆に何もしなかったり、作る方に走ってしまったり。&lt;/p&gt;
-
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-
-&lt;p&gt;Just Enough Mathの続きを見る、Liner Algebra。これで数学とプログラムのつながりを理解しておいて、数学とプログラムを勉強しようと思う。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170202</title>
-      <link>http://ukitazume.co/learn/20170202/</link>
-      <pubDate>Thu, 02 Feb 2017 08:47:07 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170202/</guid>
-      <description>
-
-&lt;h3 id=&#34;サーバーの整理&#34;&gt;サーバーの整理&lt;/h3&gt;
-
-&lt;p&gt;kubernetesに集約していく。VPSを減らす。&lt;/p&gt;
-
-&lt;h4 id=&#34;redis-on-kuberentes&#34;&gt;Redis on Kuberentes&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ドキュメントに従った。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/kubernetes/kubernetes/tree/master/examples/storage/redis&#34;&gt;https://github.com/kubernetes/kubernetes/tree/master/examples/storage/redis&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;redis-sentinel service から、redis-cliで接続、 kubectlでマニュアルmaster &amp;amp; Sentinelをdownさせ、様子を伺った。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;down&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;10.97.170.0:26379&amp;gt; sentinel master mymaster
- 1) &amp;quot;name&amp;quot;
- 2) &amp;quot;mymaster&amp;quot;
- 3) &amp;quot;ip&amp;quot;
- 4) &amp;quot;192.168.228.214&amp;quot;
- 5) &amp;quot;port&amp;quot;
- 6) &amp;quot;6379&amp;quot;
- 7) &amp;quot;runid&amp;quot;
- 8) &amp;quot;955122ca3f7aba7eaefddb587cd7e6fda4d9d2d0&amp;quot;
- 9) &amp;quot;flags&amp;quot;
-10) &amp;quot;s_down,master&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;入れ替わった&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;10.97.170.0:26379&amp;gt; sentinel master mymaster
-1) &amp;quot;name&amp;quot;
-2) &amp;quot;mymaster&amp;quot;
-3) &amp;quot;ip&amp;quot;
-4) &amp;quot;192.168.104.43&amp;quot;
-5) &amp;quot;port&amp;quot;
-6) &amp;quot;6379&amp;quot;
-7) &amp;quot;runid&amp;quot;
-8) &amp;quot;28ed0d399683191290ed82e4192747611f5ddc92&amp;quot;
-9) &amp;quot;flags&amp;quot;
-10) &amp;quot;master&amp;quot;
-11) &amp;quot;pending-commands&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;これで、sentinel x 3 / redis x 3 立ち上がって、一人がmasterに選ばれている。sentinelはkubernetesのservice discovery で, redis-masterはsentinel からdiscoveryする。&lt;/p&gt;
-
-&lt;p&gt;しかし、client libraryがきっと対応している。少しみてみると&lt;/p&gt;
-
-&lt;p&gt;rubyはいける。
-&lt;a href=&#34;https://github.com/redis/redis-rb/blob/master/examples/sentinel.rb#L27&#34;&gt;https://github.com/redis/redis-rb/blob/master/examples/sentinel.rb#L27&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;nodejsはioredisが行けそう
-&lt;a href=&#34;https://github.com/luin/ioredis#sentinel&#34;&gt;https://github.com/luin/ioredis#sentinel&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;gitlab&#34;&gt;GitLab&lt;/h3&gt;
-
-&lt;p&gt;復旧作業をライブストリーミングしてたみたい。すごいなぁ。かっこいいな。事故とそのあとのオープンさ、対応の仕方。
-災い転じてなんとやらなのか。見せるだけの実力がちゃんとあることと、自己の捉え方について、かっこいいなと思った次第です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nc0hPGerSd4&amp;amp;feature=youtu.be&#34;&gt;https://www.youtube.com/watch?v=nc0hPGerSd4&amp;amp;feature=youtu.be&lt;/a&gt;
-&lt;a href=&#34;https://togetter.com/li/1076845?page=2&#34;&gt;https://togetter.com/li/1076845?page=2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;他、落語系の開発して、終了。&lt;/p&gt;
 </description>
     </item>
     

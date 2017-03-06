@@ -6,8 +6,18 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Mar 2017 21:40:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Mar 2017 22:27:34 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170306</title>
+      <link>http://ukitazume.co/learn/20170306/</link>
+      <pubDate>Mon, 06 Mar 2017 22:27:34 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170306/</guid>
+      <description>&lt;p&gt;東京に出勤。群馬に帰宅。妻は引越しの準備を着々と進めてくれている。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170305</title>
@@ -305,32 +315,6 @@ rails-apiとangularjs(1)も少し。失った文脈を取り戻す。&lt;/p&gt;
 
 &lt;p&gt;ニシンとカボチャの味噌汁を作って食す。
 自作の納豆もいい感じ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170206</title>
-      <link>http://ukitazume.co/learn/20170206/</link>
-      <pubDate>Mon, 06 Feb 2017 16:05:59 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170206/</guid>
-      <description>
-
-&lt;p&gt;就活などで、東京に行って数日PC前から離れて、ログが抜けた。&lt;/p&gt;
-
-&lt;h3 id=&#34;talk&#34;&gt;Talk&lt;/h3&gt;
-
-&lt;p&gt;アメリカにいた時にお世話になった人とSkype
-他、スカイプで仕事。&lt;/p&gt;
-
-&lt;h3 id=&#34;お金&#34;&gt;お金&lt;/h3&gt;
-
-&lt;p&gt;お金が重要な決定要素になってるので、整理。話し合い。&lt;/p&gt;
-
-&lt;h3 id=&#34;phantom&#34;&gt;Phantom&lt;/h3&gt;
-
-&lt;p&gt;nodeからPhantomを使って見たが、全然上手いこといかず。メモリーがどんどん膨らむ。
-どこで止めるかが難しい。クライアントサイドと一緒になってやったほうがよさそう。&lt;/p&gt;
 </description>
     </item>
     

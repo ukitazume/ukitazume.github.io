@@ -6,8 +6,29 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Mar 2017 09:02:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Mar 2017 14:37:13 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170313</title>
+      <link>http://ukitazume.co/learn/20170313/</link>
+      <pubDate>Mon, 13 Mar 2017 14:37:13 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170313/</guid>
+      <description>&lt;p&gt;東京から出社。歩いて、30分ぐらい。
+仕事で丸の内へも。そのあと久しぶりに美容室へ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>20170310</title>
+      <link>http://ukitazume.co/learn/20170310/</link>
+      <pubDate>Fri, 10 Mar 2017 09:55:24 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170310/</guid>
+      <description>&lt;p&gt;明日は引っ越し&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170309</title>
@@ -214,64 +235,6 @@ awsのcodedeployに、systemd, ansible, terraformと色々触ってた。&lt;/p&
 &lt;p&gt;歴史というのはこんなふうに決まっていくことなのかと唖然とする。ほぼほぼ転げ落ちていく歴史なのだが、ダメだなこれはという中に、山本五十六の対米英戦について中央への抗議や日本への原爆使用を反対し、通らず、辞表を提出したアメリカの海軍次官ラルフバード、イギリスの首相チャーチルの外相松岡宛の書簡、ポツダム宣言受託を決定する御前会議での鈴木総理と昭和天皇など、魅力に感じるやりとりも存在する。&lt;/p&gt;
 
 &lt;p&gt;身近にいまでもありそうな（起こりそうな）話もあって、想像でき面白い。反省をとか、教訓を取り出すことももちろんできるし必要なのだろうけど、まさに歴史は小説よりも奇なり、教養や反省ということだけではなく、普通に読んでて面白い。三宅坂やら、日比谷公園なども出てくる、そして、著者はご存命で、終戦当時は中学二年生。まるで知らない話が、たかだか人一人の一生のスケールで収まるほど最近の話なのだ。その実感はより&lt;a href=&#34;http://amzn.to/2kAwfcm&#34;&gt;『昭和史 1926-1945』半藤一利&lt;/a&gt;を面白くしてくれた。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>はたらく</title>
-      <link>http://ukitazume.co/post/work/</link>
-      <pubDate>Sat, 18 Feb 2017 10:04:51 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/post/work/</guid>
-      <description>&lt;p&gt;先週祖母が亡くなった。89歳だった。お盆と正月に家族が集まって美味しい料理を食べたことをよく覚えている。強いイメージのひとで、みんなを集め、ご飯を振る舞い、その場の磁力を作っていた。自分は台所に立ち、美味しい料理を振る舞っていた。本当に美味しかった。今でも味を、食感を、匂いを思い出す。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;その磁場を生み出せる人は今おらず、葬儀で同い年のいとこにあった。時間が止まったような感覚で、そのまま年老いていた。自分もそうなだろう。&lt;/p&gt;
-
-&lt;p&gt;半年ほど好き勝手にした後、仕事が決まった。小さい会社で自由に働けること、エンジニアリングの適応先に興味があることで決めた。その少し前、就職活動をしている時に、大学の先輩に会って話す機会があった。久しぶりに会うというのに、忙しく駅の改札で待ち合わせして、そのまま駅についている喫茶店で夕ご飯を済ませながら話した。話している中で、問いがあり、しばらくしてそれが考えるきっかけになり、自分のやることを決めた。ITの技術は日進月歩なものの、コモディティ化、サービス化していく。音声認識や、機械学習はAPIやオープンソースで提供されている。その中で、技術を現場に適応するエンジニアになろうと思う。コモディティ化し、サービス化したものを組み合わせ（どのレベルの部品からも重要だけど）お給料をもらうということにした。エンジニアとして普通のことを言っているが、IT技術の需要の高さからくる傲慢さや、エンジニアコミュニティの自己満足に浸ることへの反省、技術ありきで学ぶだけではなく、その先に適応があれば使っていくこと、技術だけじゃなく、適応対象のコトや人を重視するという意味を含んでいる。&lt;/p&gt;
-
-&lt;p&gt;何かをやる前に自分の期待を書いておくことにはとても意味があるとその先輩は言っていた。物事を進めていく中で、そういうことが埋もれていくからだ。一週間働いだけでもそれを感じてここに言葉にしておいた。&lt;/p&gt;
-
-&lt;p&gt;盆や正月に祖母の家にみんなで集まった時、祖母はいつも台所で娘たち（自分の母を含む）に指示を出し、ご飯を作っていた。テーブルでご飯を待っていた自分は祖母と何かまとまった会話をしたことがあったのだろうか。年に2回集まって食べたその食卓と、そのご飯は一方的に多くを受け取とったことは間違いなく、祖母の人生が幸せであったことをねがいます。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>20170217</title>
-      <link>http://ukitazume.co/learn/20170217/</link>
-      <pubDate>Fri, 17 Feb 2017 12:06:54 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170217/</guid>
-      <description>
-
-&lt;h2 id=&#34;インフラの設定&#34;&gt;インフラの設定&lt;/h2&gt;
-
-&lt;p&gt;　
-VPC -&amp;gt; Subnet(AZ) -&amp;gt; Instance&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/nisshiee/items/df4261132ec686964605&#34;&gt;http://qiita.com/nisshiee/items/df4261132ec686964605&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ただ、RDSはAZをまたぐので、複数指定する。それが、subnetgroup&lt;/li&gt;
-&lt;li&gt;Security Group はIOのネットワークルールでsubnetを対象に適応できる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;terraform&#34;&gt;Terraform&lt;/h2&gt;
-
-&lt;p&gt;リソース名は、内部で参照するためのもので、AWSの名前は関係ない
-AWS console上の名前はTagの &lt;code&gt;Name&lt;/code&gt; をとるのでそこで設定&lt;/p&gt;
-
-&lt;h2 id=&#34;ansible&#34;&gt;Ansible&lt;/h2&gt;
-
-&lt;p&gt;rubyのインストールをrbenv経由にした。面倒。dockerの方が良かったかな。&lt;/p&gt;
-
-&lt;h2 id=&#34;redmineを使うことになり&#34;&gt;redmineを使うことになり&lt;/h2&gt;
-
-&lt;p&gt;ローカルで建ててみた。サーバーはどうしよう。&lt;/p&gt;
-
-&lt;h2 id=&#34;昔書いたansible-の実行&#34;&gt;昔書いたansible の実行&lt;/h2&gt;
-
-&lt;p&gt;うーん。動かなくなってる部分があった、ci必要。&lt;/p&gt;
-</description>
     </item>
     
   </channel>

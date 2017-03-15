@@ -6,8 +6,53 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Mar 2017 14:37:13 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Mar 2017 07:41:35 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>『思考の整理学』外山滋比古</title>
+      <link>http://ukitazume.co/post/howtothink/</link>
+      <pubDate>Wed, 15 Mar 2017 07:41:35 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/post/howtothink/</guid>
+      <description>&lt;p&gt;いつ買ったのかも覚えていないが、よく本屋で目立つ場所に置いてあるので、手にしたのだろうと思う、外山滋比古著『思考の整理学』を読んだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;『思考の整理学』あとがきより、&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;（前略) それでも、気がついてみると、われわれはそれぞれ、いつの間に変われ流の考え方、自分だけの考えのまとめ方を持っている。
+どこで教わったということではないし、特に自分で工夫したということもなく、自然にある方のようなものが出来上がっている。その人の発想は、この型によって規制される。厄介なのは、その型をみずからでは、はっきりと自覚するのが困難なことである。
+自分はどういう考え方をしているのか、ということを意識するには、他の人の型触れるのが有効である。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;なんとも重要なことを言っている。自分なりの考え方の型をつくりあげて、自分が楽しく生きられる方法をいつも探っているつもりでいる。それでも一人で思考しているだけでは有効ではなく、人とモノをつくったり、生活をしたり、話すことで型を取り出し、打ち直しをしているように最近感じている。&lt;/p&gt;
+
+&lt;p&gt;自分は頭でっかちになりがちで、人の言動に即座に判断を下してしまう。結婚して、全く考え方が遠い尊重すべき他人と暮らすことで、需要なことに気づいた。それは価値判断のスピードを遅らせる、判断を保留することの重要性に気づいた。それによって、相手の言っていることをより理解でき、何か（自分の中に無い物もしくは、気づいていないもの）を取り出すことができる。&lt;/p&gt;
+
+&lt;p&gt;それでも、他人の発言に眉をひそめてしまい、びっくりすることが多々ある。反射的になってしまっている自分に気づく。その反射的な反応を遅延させ、受け入れてみることを試しながら、自分の型を意識していきたい。『思考の整理学』の中の一章に &lt;strong&gt;ホメテヤラネバ&lt;/strong&gt; というのがある。アイディアを、考え方の芽を摘まないために、否定せず、ホメテヤラネバいけないのである。アイディアをゲットするのにとても貪欲な筆者の本だった。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>20170315</title>
+      <link>http://ukitazume.co/learn/20170315/</link>
+      <pubDate>Wed, 15 Mar 2017 07:40:35 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170315/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20170314</title>
+      <link>http://ukitazume.co/learn/20170314/</link>
+      <pubDate>Tue, 14 Mar 2017 09:31:36 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170314/</guid>
+      <description>&lt;p&gt;雨。歩いて出社。早足のつもりでも30分ぐらい。
+Railsのコードを書いて1日が終わる。帰りに寄る場所なく、家でご飯。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170313</title>
@@ -198,43 +243,6 @@ Rubyはいいなーと思いました。&lt;/p&gt;
       <guid>http://ukitazume.co/learn/20170223/</guid>
       <description>&lt;p&gt;terraformをたくさん。moduleがわかって、複数環境向けに書き直し。&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>20170222</title>
-      <link>http://ukitazume.co/learn/20170222/</link>
-      <pubDate>Wed, 22 Feb 2017 00:17:07 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170222/</guid>
-      <description>&lt;p&gt;東京。仕事とAppStoreでイベントと懇親会。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170221</title>
-      <link>http://ukitazume.co/learn/20170221/</link>
-      <pubDate>Tue, 21 Feb 2017 10:03:10 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170221/</guid>
-      <description>&lt;p&gt;仕事二週目。unityとxcodeに、cloud9, cakephpを見ることに。デバックだけだけど。
-awsのcodedeployに、systemd, ansible, terraformと色々触ってた。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>『昭和史 1926-1945』半藤一利</title>
-      <link>http://ukitazume.co/post/showashi/</link>
-      <pubDate>Sun, 19 Feb 2017 08:55:41 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/post/showashi/</guid>
-      <description>&lt;p&gt;中目黒の本屋で見かけて買って、本棚で眠っていた　&lt;a href=&#34;http://amzn.to/2kAwfcm&#34;&gt;『昭和史 1926-1945』半藤一利&lt;/a&gt;を映画『日本のいちばん長い日』を見たのをきっかけに読んで見た。
-太くて、読むのに集中力を要する本を想像しいたが、講義形式の本で読みやすく、面白い本だった。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;歴史というのはこんなふうに決まっていくことなのかと唖然とする。ほぼほぼ転げ落ちていく歴史なのだが、ダメだなこれはという中に、山本五十六の対米英戦について中央への抗議や日本への原爆使用を反対し、通らず、辞表を提出したアメリカの海軍次官ラルフバード、イギリスの首相チャーチルの外相松岡宛の書簡、ポツダム宣言受託を決定する御前会議での鈴木総理と昭和天皇など、魅力に感じるやりとりも存在する。&lt;/p&gt;
-
-&lt;p&gt;身近にいまでもありそうな（起こりそうな）話もあって、想像でき面白い。反省をとか、教訓を取り出すことももちろんできるし必要なのだろうけど、まさに歴史は小説よりも奇なり、教養や反省ということだけではなく、普通に読んでて面白い。三宅坂やら、日比谷公園なども出てくる、そして、著者はご存命で、終戦当時は中学二年生。まるで知らない話が、たかだか人一人の一生のスケールで収まるほど最近の話なのだ。その実感はより&lt;a href=&#34;http://amzn.to/2kAwfcm&#34;&gt;『昭和史 1926-1945』半藤一利&lt;/a&gt;を面白くしてくれた。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,8 +6,21 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Mar 2017 07:40:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Mar 2017 10:38:02 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170317</title>
+      <link>http://ukitazume.co/learn/20170317/</link>
+      <pubDate>Fri, 17 Mar 2017 10:38:02 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170317/</guid>
+      <description>&lt;p&gt;週末を感じる。朝昼と夜の弁当を作った。夜の分は伊勢崎に向かうバスに乗りながら食べる予定だ。
+朝、実家から送ってもらったばかりの茶碗を割ってしまった。弁当を一気にたくさん作った高揚感から一転、凹んでしまった。&lt;/p&gt;
+
+&lt;p&gt;19:50の新宿発バスに乗り、群馬へ。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170315</title>
@@ -189,45 +202,6 @@ Rubyはいいなーと思いました。&lt;/p&gt;
       <guid>http://ukitazume.co/learn/20170221/</guid>
       <description>&lt;p&gt;仕事二週目。unityとxcodeに、cloud9, cakephpを見ることに。デバックだけだけど。
 awsのcodedeployに、systemd, ansible, terraformと色々触ってた。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170217</title>
-      <link>http://ukitazume.co/learn/20170217/</link>
-      <pubDate>Fri, 17 Feb 2017 12:06:54 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170217/</guid>
-      <description>
-
-&lt;h2 id=&#34;インフラの設定&#34;&gt;インフラの設定&lt;/h2&gt;
-
-&lt;p&gt;　
-VPC -&amp;gt; Subnet(AZ) -&amp;gt; Instance&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/nisshiee/items/df4261132ec686964605&#34;&gt;http://qiita.com/nisshiee/items/df4261132ec686964605&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ただ、RDSはAZをまたぐので、複数指定する。それが、subnetgroup&lt;/li&gt;
-&lt;li&gt;Security Group はIOのネットワークルールでsubnetを対象に適応できる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;terraform&#34;&gt;Terraform&lt;/h2&gt;
-
-&lt;p&gt;リソース名は、内部で参照するためのもので、AWSの名前は関係ない
-AWS console上の名前はTagの &lt;code&gt;Name&lt;/code&gt; をとるのでそこで設定&lt;/p&gt;
-
-&lt;h2 id=&#34;ansible&#34;&gt;Ansible&lt;/h2&gt;
-
-&lt;p&gt;rubyのインストールをrbenv経由にした。面倒。dockerの方が良かったかな。&lt;/p&gt;
-
-&lt;h2 id=&#34;redmineを使うことになり&#34;&gt;redmineを使うことになり&lt;/h2&gt;
-
-&lt;p&gt;ローカルで建ててみた。サーバーはどうしよう。&lt;/p&gt;
-
-&lt;h2 id=&#34;昔書いたansible-の実行&#34;&gt;昔書いたansible の実行&lt;/h2&gt;
-
-&lt;p&gt;うーん。動かなくなってる部分があった、ci必要。&lt;/p&gt;
 </description>
     </item>
     

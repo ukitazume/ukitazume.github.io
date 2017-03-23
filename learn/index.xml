@@ -6,8 +6,21 @@
     <description>Recent content in Learn-rsses on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Mar 2017 10:38:02 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 22 Mar 2017 13:00:13 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170322</title>
+      <link>http://ukitazume.co/learn/20170322/</link>
+      <pubDate>Wed, 22 Mar 2017 13:00:13 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170322/</guid>
+      <description>&lt;p&gt;SQLの本と昭和史戦後編を読んでいる。歩いての通勤に慣れてきた。雨でも歩いた。
+カーテンが来て、家が家らしくなって来た。&lt;/p&gt;
+
+&lt;p&gt;Rails, Elastic BeansTalkなど、あまり触りたくないものも触っている。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170317</title>
@@ -191,17 +204,6 @@ Rubyはいいなーと思いました。&lt;/p&gt;
       
       <guid>http://ukitazume.co/learn/20170222/</guid>
       <description>&lt;p&gt;東京。仕事とAppStoreでイベントと懇親会。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170221</title>
-      <link>http://ukitazume.co/learn/20170221/</link>
-      <pubDate>Tue, 21 Feb 2017 10:03:10 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170221/</guid>
-      <description>&lt;p&gt;仕事二週目。unityとxcodeに、cloud9, cakephpを見ることに。デバックだけだけど。
-awsのcodedeployに、systemd, ansible, terraformと色々触ってた。&lt;/p&gt;
 </description>
     </item>
     

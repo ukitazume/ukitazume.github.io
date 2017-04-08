@@ -6,8 +6,24 @@
     <description>Recent content on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Apr 2017 16:31:12 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Apr 2017 09:28:22 +0900</lastBuildDate>
     <atom:link href="http://ukitazume.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>20170408</title>
+      <link>http://ukitazume.co/learn/20170408/</link>
+      <pubDate>Sat, 08 Apr 2017 09:28:22 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/learn/20170408/</guid>
+      <description>&lt;p&gt;今週末は雨。今週もドタバタしていた。なかなか落ち着かない。
+AWSのElastic Beanstalkとprivate repositoryのgem、werckerの相性が悪くて、どうしようか考えてる。すごく時間を取られた。&lt;/p&gt;
+
+&lt;p&gt;データーを集めることも進んでいる、misoca APIやcsvkit, redashなど使って見ている。久しぶりにdockerを使ってnetworkの新しいインターフェースなどに触れた。
+elasticsearhのインターフェースにqueryになれない。&lt;/p&gt;
+
+&lt;p&gt;週末は群馬。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>20170405</title>
@@ -185,16 +201,6 @@ Rubyはいいなーと思いました。&lt;/p&gt;
 
 &lt;p&gt;線表を引いてしまう計画の悪さは、自主性を重んじないことと、計画を超えたものが生まれないことにありそう。
 また、一般的なことだが、改良を入れるタイミングの数が少ないのも問題。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>20170306</title>
-      <link>http://ukitazume.co/learn/20170306/</link>
-      <pubDate>Mon, 06 Mar 2017 22:27:34 +0900</pubDate>
-      
-      <guid>http://ukitazume.co/learn/20170306/</guid>
-      <description>&lt;p&gt;東京に出勤。群馬に帰宅。妻は引越しの準備を着々と進めてくれている。&lt;/p&gt;
 </description>
     </item>
     

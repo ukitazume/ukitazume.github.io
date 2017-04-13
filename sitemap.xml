@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ukitazume.co/</loc>
-    <lastmod>2017-04-09T16:53:53+09:00</lastmod>
+    <loc>http://ukitazume.co/learn/20170413/</loc>
+    <lastmod>2017-04-13T17:15:15+09:00</lastmod>
   </url>
   
   <url>
@@ -294,6 +294,119 @@
   <url>
     <loc>http://ukitazume.co/post/helloworld/</loc>
     <lastmod>2016-12-18T09:37:40-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/</loc>
+    <lastmod>2017-01-28T09:36:02+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/blog/</loc>
+    <lastmod>2016-12-18T09:37:40-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/book/</loc>
+    <lastmod>2017-03-15T07:41:35+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/foods/</loc>
+    <lastmod>2017-01-24T22:43:37+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/hugo/</loc>
+    <lastmod>2016-12-18T09:37:40-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/learns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/learn/</loc>
+    <lastmod>2017-04-13T17:15:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/movie/</loc>
+    <lastmod>2017-01-28T20:28:04+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/note/</loc>
+    <lastmod>2017-01-30T10:34:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/page/</loc>
+    <lastmod>2016-12-29T07:24:41+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/photos/</loc>
+    <lastmod>2017-02-27T19:15:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/photo/</loc>
+    <lastmod>2017-02-27T19:15:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/portland/</loc>
+    <lastmod>2017-02-27T19:15:27+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/post/</loc>
+    <lastmod>2017-04-09T16:53:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/programming/</loc>
+    <lastmod>2017-01-22T23:36:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/</loc>
+    <lastmod>2017-01-28T09:36:02+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/</loc>
+    <lastmod>2017-04-13T17:15:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2016-12-29T06:48:50+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/tags/%E7%95%99%E5%AD%A6/</loc>
+    <lastmod>2016-12-29T06:48:50+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

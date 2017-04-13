@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ukitazume.co</title>
-    <link>http://ukitazume.co/tags/photos/index.xml</link>
-    <description>Recent content on ukitazume.co</description>
+    <title>Photos on ukitazume.co</title>
+    <link>http://ukitazume.co/tags/photos/</link>
+    <description>Recent content in Photos on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <atom:link href="http://ukitazume.co/tags/photos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 19:15:27 +0900</lastBuildDate>
+    
+	<atom:link href="http://ukitazume.co/tags/photos/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>portland</title>
@@ -14,34 +17,7 @@
       <pubDate>Mon, 27 Feb 2017 19:15:27 +0900</pubDate>
       
       <guid>http://ukitazume.co/photo/portland/</guid>
-      <description>&lt;p&gt;I stayed in Portland, Oregon for three months. I ate, talked, walked alot there.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://ukitazume.co/images/portland/G0030326.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_1138.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_2727.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_34632.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_4501.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7550.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7554.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7556.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7569.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7582.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7586.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7621.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7689.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7864.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7911.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7927.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7957.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7975.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_7979.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/G0030101.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_8009.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_8013.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_8057.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_8108.JPG&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://ukitazume.co/images/portland/IMG_8188.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>I stayed in Portland, Oregon for three months. I ate, talked, walked alot there.</description>
     </item>
     
   </channel>

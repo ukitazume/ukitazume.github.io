@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Note-rsses on ukitazume.co</title>
-    <link>http://ukitazume.co/note/index.xml</link>
-    <description>Recent content in Note-rsses on ukitazume.co</description>
+    <title>Notes on ukitazume.co</title>
+    <link>http://ukitazume.co/note/</link>
+    <description>Recent content in Notes on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 30 Jan 2017 10:34:27 +0900</lastBuildDate>
-    <atom:link href="http://ukitazume.co/note/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://ukitazume.co/note/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>math</title>

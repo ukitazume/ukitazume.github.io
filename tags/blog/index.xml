@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ukitazume.co</title>
-    <link>http://ukitazume.co/tags/blog/index.xml</link>
-    <description>Recent content on ukitazume.co</description>
+    <title>Blog on ukitazume.co</title>
+    <link>http://ukitazume.co/tags/blog/</link>
+    <description>Recent content in Blog on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <atom:link href="http://ukitazume.co/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2016 09:37:40 -0800</lastBuildDate>
+    
+	<atom:link href="http://ukitazume.co/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hello World</title>
@@ -16,89 +19,7 @@
       <guid>http://ukitazume.co/post/helloworld/</guid>
       <description>&lt;p&gt;ここ半年、仕事の時間を減らして、旅行したり、カンファレンスに出たり、アメリカの大学の英語コースに通っていた。年末に向かって、仕事を探しつつ、新しい生活を始めることにした。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Golangで書かれた、静的サイトジェネレーターの&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;を使って、Blogは始めることにした。
-Design Themeは&lt;a href=&#34;http://themes.gohugo.io/angels-ladder/&#34;&gt;Angels-ladder&lt;/a&gt;を使わせてもらった。&lt;/p&gt;
-
-&lt;p&gt;Hugoのチュートリアルに則って、Github Pageに載せた。
-唯一の工夫は、Makefileを作って単純な記事の更新をmakeコマンドで叩けるようにした。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;default: update
-
-update:
-  hugo
-  git commit -am &#39;an update&#39; &amp;amp;&amp;amp; git push
-  cd public &amp;amp;&amp;amp; git commit -am &#39;an update&#39; &amp;amp;&amp;amp; git push
-new:
-  hugo
-  git add . &amp;amp;&amp;amp; git commit -m &#39;new post &#39; &amp;amp;&amp;amp; git push
-  cd public &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &#39;an update&#39; &amp;amp;&amp;amp; git push
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;書くことについて考える機会があった。2016年9月から、3ヶ月(1ターム)Portland State UniversityのESLコースに通った。受けたコースが、英語を第二外国語とする生徒のための大学への準備コースということもあり、アメリカの大学で授業を受けるために必要な英語力を伸ばすカリキュラムが組まれていた。読むこと、それをまとめること、書くことが中心だった。一応大学を出ている自分だけど、書くことに関して、しっかり習ったのは初めてかもしれない。文章を書くために必要なリーディング、メモの取り方、アウトラインを書いて、文章を書くところまで。さらに先生が一人つず、添削し、面談し、修正をした。&lt;/p&gt;
-
-&lt;p&gt;書くことは考えることで、先代の知識の上に考え方や、知見を積み重ねていく行為なのだということが、授業の中で強調された。１タームの中で大きなエッセイを二つ書いた。一つはPlagiarize(盗用）の原因について、もう一つはDigital Technologyの利点と欠点について。二つとも書きながら、テーマについて考えさせられるため、その内容について、教育されていく仕組みになっていた。書くために、読み、自分の文章を組み立てることは考えることであり、教育されることでもあった。Plagiarizeなら、チーティングはダメよと言われつつ、書くことの意味を。Digital Technologyなら、その技術との向き合い方を考えさせられた。&lt;/p&gt;
-
-&lt;p&gt;そんなわけで書くことをたまにしてみたいなと思いBlogを再開することにしました。つづくといいなと。&lt;/p&gt;
-
-&lt;p&gt;書くことについて、&lt;a href=&#34;http://ec.alc.co.jp/book/0016111/&#34;&gt;&amp;ldquo;English Journal Nov 2016&amp;rdquo;&lt;/a&gt; にて、Mark Vanhoenackerが次のようにインタビューで述べています。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;hellip; I found that wirting, uh, was a way of making an expericence deeper - it was useful to articulate why I liked something. And after doing that I liked it even more.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;実際時間がないときにもかけるかどうかは、わかりませんが。&lt;/p&gt;
-
-&lt;p&gt;せっかく書いたので、授業で書いた、その2つのエッセイを置いておきます。&lt;/p&gt;
-
-&lt;h2 id=&#34;why-do-students-plagiarize&#34;&gt;Why do students plagiarize?&lt;/h2&gt;
-
-&lt;p&gt;When I was a university student, the professors forced me and almost all the students to write all papers by hand to avoid plagiarism. But it didn’t solve the problem essentially because copy and paste are not only the cause. Moreover, it might be the surface of the problem. We need to consider the essential causes of plagiarism, as you know, plagiarism is a huge problem of the academic world. There are the three reasons for plagiarism with the meaning of the citation, modern changes and ourselves. These are the lack of understanding of the academic culture, difficulty of distinguishing between common knowledge and ideas that requires being cited, and several gaps between education systems and students.&lt;/p&gt;
-
-&lt;p&gt;One of the reasons of plagiarism might be the lack of understanding of the academic culture. If students have not enough understanding of why citation is important when they write papers, they would think that a citation is just a useless or detested rule. If so, they have less motivation to follow the rule of citation and they could plagiarize easily. On the other hand, when they know the meaning well, they are less likely to do so. According to Coughlan (2014) in &amp;ldquo;Harvard to Adapt Student Honesty Pledge,&amp;rdquo;  some universities required half students to sign an honor code and didn’t require to the other half. The commitments were attributed to decrease the amount of cheating compared with the other half who did not sign the commitment. In fact, some universities require their students to commit their code of conduct. It prevents students from plagiarizing (Harvard to Adapt&amp;hellip; 2014). Therefore, if students know the meaning of plagiarism and commit an honor code, they are less likely to plagiarize. The explicit commitment might be useful to prevent it. Furthermore, the commitment confirms the student to understand the meaning. It suggests that lack of understanding of the meaning is one of the causes of plagiarism. Additionally, where the rule came from might not be known by students who do plagiarism. It’s an invitation of the huge and deep world named the academic world. If you follow the rule, you can add a new context or value to the world. The Washington State University (n.d) writes that “it is an invitation to change self and society individually, collectively, and democratically. Students who work through culture shock and writers block begin to realize that writing is an authors’ answer to the world and is a powerful form of action”. In other words, you can change self and the world by writing something in the academic world with giving credit. To know the background helps to understand why we should follow the rule. The opposite is that the lack of understanding makes students break the rule easily. It probably reduces plagiarism that students know the rule’s origin and be confirm to know that. Thus, one of the reasons for students plagiarizing is the lack of the knowledge. However, the lack of the meaning is not just only the reason. We also need to consider the recent changes related to a citation.&lt;/p&gt;
-
-&lt;p&gt;Recently, it&amp;rsquo;s getting harder and harder to tell what common knowledge is. In other words, it is more and more difficult for students to know what sources they should give credit to. So, sometimes, the difficulty is one of the reasons that unintentional plagiarism happens. What makes it difficult for especially international students to cite is globalism of academics. In &amp;ldquo;Blame It on the French, or How Did We Get Here?&amp;rdquo;, The Washington State University (n.d.) mentions “An intercultural space is a place where a number of cultures meet, overlap, dispute, and challenge. It is a place of endless restructuring”. The place is always rewritten and reconstructed. It makes obscure between common knowledge and original idea that you must give credit to. It leads students to plagiarize unintentionally.  Also, there is another reason to make telling what common knowledge is difficult. The Internet also changes the circumstance of the world. Technology companies such as Google enable us to get resources that are useful for our papers instantly. Also, it also spreads good ideas faster around the world. That also makes it difficult. I met some students confused the common knowledge or not for the results Google gives us. Students would like to get graphs or images to explain an idea, and then they get an image from the results of Google Image Search. It looks like common knowledge or resources and seems not to require to cite that, but it requires to cite. The Internet, however, brings us great benefit and It enables us to reach a ton of information easily. It leads students to misjudge what is common knowledge. The point is that the changes of the environment around the academic make it harder to tell the difference between common knowledge or not. And it provides sources easily to students and they forget to cite the sources unintentionally.&lt;/p&gt;
-
-&lt;p&gt;There are gaps between the expectations of students and educations as a reason for why students plagiarize. The gaps make students cheat intentionally. Students expect educations to help or confirm to get good jobs and it puts pressure on students because they are afraid of failures or getting bad grades and it means they couldn’t get good jobs. As a result, they tend to choose to (Slobogin, 2002). Education system wants to tempt them to study hard and get knowledge and skill, but it makes students stressed and leads them to the wrong way.&lt;/p&gt;
-
-&lt;p&gt;Moreover, educational institutions expect their students to always manage themselves well but it’s hard for students, particularly fresh students, to manage time and organize classes. It also produces another pressure on them. According to Cleary (2012), sometimes, students have not enough time or ability to sort out something they need to do their assignments, and it causes their deliberate plagiarism. It&amp;rsquo;s also one of the reasons that students feel high-pressure and also one reason of plagiarism. The gap between the expectations sometimes puts students into a high-pressure environment, and they feel they couldn&amp;rsquo;t have any options except cheating.&lt;/p&gt;
-
-&lt;p&gt;There are the reasons for plagiarism from the view points: the citing meaning itself, the environment changes and mutual understanding of both students and education institutions. As the first reason, students just don’t know why they need to give credit for the source from the root of the history beginning with Descartes(the Washington State University, n.d.) without the meaning students are likely to do that. Second, the academic world was changed by especially globalization or technology. That makes it more difficult to tell the difference between common knowledge and original ideas than before and it leads students to unintentional plagiarizing. Last, the gap of expectations between students and teachers drives students into a place which tempts them to plagiarize. If my university considered more why students plagiarize, they would have used more efficient ways. In my view, although there is each reason for each situation, it’s useful to find the causes to understand and rethink the problem itself, the environment around it and yourself.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Cleary, M.N.(2012). Top ten reasons students plagiarize and what you can do.
- Retrieved from &lt;a href=&#34;http://offices.depaul.edu/oaa/faculty-resources/teching/academic-integrity/Documents/Top.pdf&#34;&gt;http://offices.depaul.edu/oaa/faculty-resources/teching/academic-integrity/Documents/Top.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Coughlan, S. (2014, May 8). Harvard to adopt student honesty pledge. Retrieved from&lt;br /&gt;
- &lt;a href=&#34;http://www.bbc.com/news/education-27326406&#34;&gt;http://www.bbc.com/news/education-27326406&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Slobogin, K. (2002, April 5). Survey: Many students say cheating’s OK. Retrieved from
- &lt;a href=&#34;http://edition.cnn.com/2002/fyi/teachers.ednews/04/05/highschool.cheating/&#34;&gt;http://edition.cnn.com/2002/fyi/teachers.ednews/04/05/highschool.cheating/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Washington State University (n.d). Blame It on the French, or How Did We Get Here?
- Retrieved from &lt;a href=&#34;http://www.wsulibs.wsu.edu/library-instruction/plagiarism&#34;&gt;http://www.wsulibs.wsu.edu/library-instruction/plagiarism&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;digital-technology&#34;&gt;Digital Technology&lt;/h2&gt;
-
-&lt;p&gt;A significant portion of modern life depends on digital technology. It makes human life better, and at the same time, people cannot stand without that. The technology is often regarded as a distraction of an activity requiring long-span concentration such as reading a book or writing a long paper. As a result, it might prevent developing abilities certainly and affect brains in a bad way. Brain power would be decreasing along with the digital technology progress. However, according to Digital Nation(Dretzin, 2010), technology is moving too fast for psychology researchers not to be able to catch up with the progress. Thus, the science hasn&amp;rsquo;t made sure the effect of the digital technology on brains yet. It gives an opportunity to think about people’s relationship with digital technology. On the bright side, digital technology gives people access to information and communication with others easier beyond distance, on the other side, it distracts concentration, but it can be overcome with some training, and then advantages are derived from both digital technology and activities requiring a long attention span.&lt;/p&gt;
-
-&lt;p&gt;Digital technology provides not only much information but also the way to manage the vast amount of information. Indeed, today there is the most information that human being can get ever on the Internet (Carr, 2010). If someone wants to learn a subject, the person can find many resources on the web. If they want to know their friends&amp;rsquo; current status, they just access to a Social Network Service. Also, the technology provides not just access to information but also ways to organize that. In &amp;ldquo;Mind Over Mass Media&amp;rdquo;, the author says that the knowledge base of human beings is increasing very fast, in contrast, brain powers and time of a day don’t increase as the same speed like that. However, the digital technology provides the ways to manage it (Pinker, 2010). Digital technology, especially the information technology, provides access to old and new knowledge and also helps to manage information efficiently. That is one of the advantages of the technology progress.&lt;/p&gt;
-
-&lt;p&gt;Also, digital technology has enabled people to express their ideas to public or their friends. In &amp;ldquo;Digital Nation&amp;rdquo; (Dretzin, 2010), a man said that &amp;ldquo;We now have these tools to reach so many people, and all of a sudden, we look around and say, &amp;lsquo;well, you know, now what?&amp;rsquo;&amp;rdquo;  So the man can express his current thought to his friends or someone even if he doesn’t know the person. From the opposite side, someone can contact with others everytime from everywhere. Consequently, it often distracts others. To make matters worse, the instant communication such as texting expects a quick response. It prevents someone from doing an activity requiring long-span attention. However, Carr (2010) argues that it is not a natural behavior to read a book with concentration because the instinct makes people care of the circumstance to survive. Thus, it&amp;rsquo;s practice to control selves to read a book for a long time with concentration. So, it seems like an instinctive reaction to reply email, instant messages or so on. In society, there are sometimes happenings that have to be noticed as soon as possible such as relative&amp;rsquo;s death, a request for urgent help, or a breaking news. The kind of notifications is over primitive human instinct, in other words, it isn&amp;rsquo;t awarded by the ability that the human has originally. But digital technology enables people to notice the sort of notifications to enhance or extend the ability to care of the circumstance to survive. It works as like a new instinct to adapt society. It would be said that the technology expands the ability that enables people to quickly notice important things that don’t relate to the original instinct to survive in the wild but connect to the ability to survive in social.&lt;/p&gt;
-
-&lt;p&gt;As already mentioned, the digital technology leads distractions easily. It&amp;rsquo;s one of the most practical disadvantages. According to Dretzin (2010), texting to someone is addictive and distracting from driving a car. Even if they know that it leads higher risk of traffic accidents, they cannot stop texting while driving. Also, from the perspective of psychology, brains show more activity when using Google than when reading a book. Therefore, using the digital technology is very addictive and being a distraction. However, distraction is not a problem that only the new technology created (Pinker, 2010) and it can be avoided from by a kind of training to control human instinct like reading books (Carr, 2010). Some activities, such as reading books and learning a new thing, bring enjoyments with a time lag. For instance, learning the second language requires a lot of discipline with concentration, and it&amp;rsquo;s tough. But when communicates with others in the language are established, a big precious experience would be derived from the tough time. The sort of outcome doesn&amp;rsquo;t follow after a lot effort quickly, but it brings a big joy. Therefore, the technology often becomes a distraction, but it can be overcome by training with the enjoyment which is given by the kind of activities requiring a long attention span.&lt;/p&gt;
-
-&lt;p&gt;Surely, the digital technology brings not only efficient ways to access information and but also the way to communicate with many people even if there is a distance between them. It could be said that the technology changes the character of information and communication. It might affect attitude for or how to face into information. It extends the ability to notice dangers related to social such as an urgent help and a breaking new. With this good points, it disturbs long and deep concentration to do a significant activity. However, distraction is not new (Pinker, 2010). It&amp;rsquo;s origin from the instinct for lives safety. To concentrate on something for a long time can be gotten by a training (Carr, 2010). As a result,  the significant advantages of the technology such as access to numerous information and wired to others whenever and wherever are gotten at the same time, and also it gives notifications of important social things. Also with training, The enjoyment can be derived from activities required from long attention are span as well as before the technology was invented. Moreover, everyone could share a pleasure, and someone could find it, get inspired and publish it with own perspective on the digital technology.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Carr, N.(2010, June 5). Does the Internet Make You Domber? Retrieved from Wall Street Journal&lt;/p&gt;
-
-&lt;p&gt;Dretzin, R. (2010, Feburary 2). Digital Nation. Retrived from &lt;a href=&#34;http://www.pbs.org/wgbh/frontline/film/digitalnation/&#34;&gt;http://www.pbs.org/wgbh/frontline/film/digitalnation/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Pinker, S. (2010, June 10). Mind OVer Mass Media. Retrived from The New York Times&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

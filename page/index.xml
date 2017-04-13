@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Page-rsses on ukitazume.co</title>
-    <link>http://ukitazume.co/page/index.xml</link>
-    <description>Recent content in Page-rsses on ukitazume.co</description>
+    <title>Pages on ukitazume.co</title>
+    <link>http://ukitazume.co/page/</link>
+    <description>Recent content in Pages on ukitazume.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 29 Dec 2016 07:24:41 +0900</lastBuildDate>
-    <atom:link href="http://ukitazume.co/page/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://ukitazume.co/page/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>test</title>
@@ -24,89 +26,10 @@
       <pubDate>Sun, 18 Dec 2016 11:39:39 -0800</pubDate>
       
       <guid>http://ukitazume.co/page/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;yu-kitazume&#34;&gt;Yu Kitazume&lt;/h2&gt;
-
-&lt;p&gt;Webエンジニア。Ruby, Javascript, インフラ。 Yahoo! Japan / Pankaku / Engine Yard&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ukitazume&#34;&gt;Github&lt;/a&gt; / &lt;a href=&#34;http://qiita.com/ukitazume&#34;&gt;Qiita&lt;/a&gt; / &lt;a href=&#34;https://zekkei-project.com/users/457&#34;&gt;Zekkei-Project&lt;/a&gt; / &lt;a href=&#34;https://www.instagram.com/ukitazume/&#34;&gt;Instagram&lt;/a&gt; / &lt;a href=&#34;https://soundcloud.com/ukitazume&#34;&gt;Soundcloud&lt;/a&gt; / &lt;a href=&#34;http://portland.hatenadiary.jp&#34;&gt;HatenaBlog::Portland&lt;/a&gt; / &lt;a href=&#34;https://pinboard.in/u:ukitazume&#34;&gt;Pinboard&lt;/a&gt; / &lt;a href=&#34;https://standbk.co/users/3&#34;&gt;BookStand&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;Software and Support Engineer in Japan. I can develop software with client-side JavaScript, Ruby, PHP. Also handle infrastructure by code on Cloud. I have the experience to work for an international company as a pre-sales engineer and a support engineer.&lt;/p&gt;
-
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
-
-&lt;p&gt;Languages and Frameworks: Ruby, PHP, Javascript, ShellScript, Golang, HTML, CSS, Rails, and Angularjs&lt;/p&gt;
-
-&lt;p&gt;Middleware: MySQL, Redis, MongoDB, PostgreSQL, ElasticSearch, Nginx, Haproxy, Unicorn, PHP-FPM, Chef, Ansible, Terraform, Linux and Docker&lt;/p&gt;
-
-&lt;p&gt;Others: Pre Sales, Technical Support&lt;/p&gt;
-
-&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Support Engineer and Pre-Sales Manager, Engine Yard, Dec 2013 - Jun 2016&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I joined Engine Yard as a pre-sales engineer for landing and expanding Japan market. Since 2014, I joined the APAC team as a support engineer. I helped the customer success to make their infrastructure scalable and reliable.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for marketing and sales in Japan, supporting customers&lt;/li&gt;
-&lt;li&gt;Gentoo Linux, monit, Chef, Redis, Unicorn, Passenger, Resque, Sidekiq, PostgreSQL, MySQL, PHP-FPM, Docker, AWS and Technical Documentation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Web Engineer and DevOps Engineer, Pankaku, Jun 2011- Mac 2013&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I developed several Web APIs, and tools for mobile games. I provisioned and operated high-throughput infrastructure.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for creating games and tools for client&lt;/li&gt;
-&lt;li&gt;AWS, Ruby on Rails, MySQL, MongoDB, Redis, Nginx, Haproxy, Javascript, HTML, and CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Web Engineer, Yahoo! Japan, Apr 2008 - Jun 2011&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I developed Web frontend, APIs, and an iPhone application named Poffee.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for developments of Yahoo!Japan services&lt;/li&gt;
-&lt;li&gt;FreeBSD, PHP, Javascript, Objective-C, HTML, and CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Master of Science, 2008&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;2006 - 2008 / Graduate school of science and technology, Department of Textile system and Technology, Shinshu University, Nagano, Japan&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bachelor of Science, 2006&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;2002 - 2006 / Department of textile system Technology, Shinshu University, Nagano, Japan&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;side-projects&#34;&gt;Side Projects&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Engineer, Zekkei-Project, 2016&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I created the web service with AngularJS and Ruby on Rails on AWS.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zekkei-project.com/en&#34;&gt;https://zekkei-project.com/en&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Responsible for developing the backend and frontend&lt;/li&gt;
-&lt;li&gt;Use: Angularjs, Redis, PostgreSQL, Rails, Gulp, PhantomJS, ElasticSearch&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;EY Berk&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s a tool to manage Chef recipes of Engine Yard like Berfshef. It handles the Chef recipes.
-I created it by Golang.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ukitazume/ey-berks&#34;&gt;https://github.com/ukitazume/ey-berks&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Golang, Chef&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Yu Kitazume Webエンジニア。Ruby, Javascript, インフラ。 Yahoo! Japan / Pankaku / Engine Yard
+Github / Qiita / Zekkei-Project / Instagram / Soundcloud / HatenaBlog::Portland / Pinboard / BookStand
+Summary Software and Support Engineer in Japan. I can develop software with client-side JavaScript, Ruby, PHP. Also handle infrastructure by code on Cloud. I have the experience to work for an international company as a pre-sales engineer and a support engineer.
+Skills Languages and Frameworks: Ruby, PHP, Javascript, ShellScript, Golang, HTML, CSS, Rails, and Angularjs</description>
     </item>
     
   </channel>

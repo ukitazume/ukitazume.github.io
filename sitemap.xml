@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ukitazume.co/post/hiroshima/</loc>
+    <lastmod>2017-05-10T08:34:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/learn/20170509/</loc>
+    <lastmod>2017-05-09T09:47:24+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ukitazume.co/learn/20170501/</loc>
     <lastmod>2017-05-01T10:11:38+09:00</lastmod>
   </url>
@@ -348,7 +358,7 @@
   
   <url>
     <loc>http://ukitazume.co/learn/</loc>
-    <lastmod>2017-05-01T10:11:38+09:00</lastmod>
+    <lastmod>2017-05-09T09:47:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -390,7 +400,7 @@
   
   <url>
     <loc>http://ukitazume.co/post/</loc>
-    <lastmod>2017-04-24T09:17:18+09:00</lastmod>
+    <lastmod>2017-05-10T08:34:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -413,8 +423,14 @@
   </url>
   
   <url>
+    <loc>http://ukitazume.co/tags/travel/</loc>
+    <lastmod>2017-05-10T08:34:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ukitazume.co/</loc>
-    <lastmod>2017-05-01T10:11:38+09:00</lastmod>
+    <lastmod>2017-05-10T08:34:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   

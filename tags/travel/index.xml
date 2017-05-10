@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on ukitazume.co</title>
+    <link>http://ukitazume.co/tags/travel/</link>
+    <description>Recent content in Travel on ukitazume.co</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 10 May 2017 08:34:10 +0900</lastBuildDate>
+    
+	<atom:link href="http://ukitazume.co/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>広島観光</title>
+      <link>http://ukitazume.co/post/hiroshima/</link>
+      <pubDate>Wed, 10 May 2017 08:34:10 +0900</pubDate>
+      
+      <guid>http://ukitazume.co/post/hiroshima/</guid>
+      <description>&lt;p&gt;この連休、妻は台湾に一人で旅行に行きたいらしく、ほったらかしにされた自分は御徒町と柳橋のシェアハウスで一緒に住んでいた友達に電話をした。その友達は今は転職し広島に住んでいる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

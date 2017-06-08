@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ukitazume.co/post/thinking_and_reading/</loc>
+    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ukitazume.co/post/spiber/</loc>
+    <lastmod>2017-06-08T08:31:23+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ukitazume.co/post/howtostartasmallbusiness/</loc>
     <lastmod>2017-05-13T19:29:01+09:00</lastmod>
   </url>
@@ -312,11 +322,6 @@
   </url>
   
   <url>
-    <loc>http://ukitazume.co/page/test/</loc>
-    <lastmod>2016-12-29T07:24:41+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://ukitazume.co/post/getback/</loc>
     <lastmod>2016-12-29T06:48:50+09:00</lastmod>
   </url>
@@ -345,7 +350,7 @@
   
   <url>
     <loc>http://ukitazume.co/tags/book/</loc>
-    <lastmod>2017-05-13T19:29:01+09:00</lastmod>
+    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -373,6 +378,12 @@
   </url>
   
   <url>
+    <loc>http://ukitazume.co/tags/lecture/</loc>
+    <lastmod>2017-06-08T08:31:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ukitazume.co/tags/movie/</loc>
     <lastmod>2017-01-28T20:28:04+09:00</lastmod>
     <priority>0</priority>
@@ -386,7 +397,7 @@
   
   <url>
     <loc>http://ukitazume.co/page/</loc>
-    <lastmod>2016-12-29T07:24:41+09:00</lastmod>
+    <lastmod>2016-12-18T11:39:39-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -410,7 +421,7 @@
   
   <url>
     <loc>http://ukitazume.co/post/</loc>
-    <lastmod>2017-05-13T19:29:01+09:00</lastmod>
+    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -440,7 +451,7 @@
   
   <url>
     <loc>http://ukitazume.co/</loc>
-    <lastmod>2017-05-13T19:29:01+09:00</lastmod>
+    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   

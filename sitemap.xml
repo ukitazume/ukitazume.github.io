@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ukitazume.co/post/atomicbox/</loc>
+    <lastmod>2017-06-12T08:15:24+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ukitazume.co/post/thinking_and_reading/</loc>
     <lastmod>2017-06-08T08:47:34+09:00</lastmod>
   </url>
@@ -350,7 +355,7 @@
   
   <url>
     <loc>http://ukitazume.co/tags/book/</loc>
-    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
+    <lastmod>2017-06-12T08:15:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -421,7 +426,7 @@
   
   <url>
     <loc>http://ukitazume.co/post/</loc>
-    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
+    <lastmod>2017-06-12T08:15:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -451,7 +456,7 @@
   
   <url>
     <loc>http://ukitazume.co/</loc>
-    <lastmod>2017-06-08T08:47:34+09:00</lastmod>
+    <lastmod>2017-06-12T08:15:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   

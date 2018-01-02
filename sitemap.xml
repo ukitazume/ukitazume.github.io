@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ukitazume.co/post/theendof2017/</loc>
+    <lastmod>2018-01-02T10:20:30+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ukitazume.co/post/ripvanwinkle/</loc>
     <lastmod>2017-11-19T21:01:32+09:00</lastmod>
   </url>
@@ -447,7 +452,7 @@
   
   <url>
     <loc>http://ukitazume.co/post/</loc>
-    <lastmod>2017-11-19T21:01:32+09:00</lastmod>
+    <lastmod>2018-01-02T10:20:30+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -477,7 +482,7 @@
   
   <url>
     <loc>http://ukitazume.co/</loc>
-    <lastmod>2017-11-19T21:01:32+09:00</lastmod>
+    <lastmod>2018-01-02T10:20:30+09:00</lastmod>
     <priority>0</priority>
   </url>
   

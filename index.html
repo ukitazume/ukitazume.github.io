@@ -1,9 +1,20 @@
 <html>
-  <header><title>Kitazume Yu</title></header>
+  <header>
+    <title>Kitazume Yu</title>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  </header>
   <body>
     <h1>Kitazume Yu</h1>
-    <h2>サービス内容</h2>
-    <p>ソフトウェア、インフラ構築に関するコンサルティングサービス</p>
+    <div>
+      <h2>サービス内容</h2>
+      <p>ソフトウェア、インフラ構築に関するコンサルティングサービス</p>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1NTbsXEzgtKktpOyHfHO2HCG"
+        publishable-key="pk_live_51NQQoIEzgtKktpOyrEzW99to6mws0GnIF4OPUmCQHbqrLO2M23HQlrVXfu6msb5zfEEY2O1g3bLCOjF0qUkr664r00PmujY1LU">
+      </stripe-buy-button>
+    
+    
+    </div>
     <h2>特定商取引法に基づく表記</h2>
     <ul>
       <li>法人名: 北爪ゆう</li>
